@@ -2,7 +2,7 @@
 ! Title: ⏰ Anti-'Prayer times' List
 ! Translated title: 🇮🇷: لیست ضد اوقات شرعی
 ! Translated title: 🇹🇷: Anti-'Namaz vakitleri' Listesi
-! Version: 13December2022v1
+! Version: 28February2023v1
 ! Expires: 7 days
 
 ! Description: 🇬🇧: So you're sitting there reading a newssite, and then you find big banners that try to tell you the exact points in time you're supposed to pray? If you want to feel less stressed and less like a slave of the clock, then this list is for you.
@@ -82,10 +82,19 @@
 ##.waktu-solat-block:not(html, body)
 ##div[class^=waktusolat_]
 ~e-solat.*##[href^="https://www.e-solat."]
+! https://github.com/DandelionSprout/adfilt/pull/718
+##div[class*=news i] .prayer-times
+! https://github.com/DandelionSprout/adfilt/issues/727
+##div[class*=haber] ~ * .namazbg
+! https://github.com/DandelionSprout/adfilt/pull/735
+##div[class*=news] .namaz-saatleri
+! https://www.tarsushaber.com/guncel/tarsus-firincilar-odasi-baskani-suat-yasar-bizler-gecici-kurumlar-h228424.html (12/01/2023) 
+##div[id*=news] ~ #prayer-times
 
 ! 🇬🇧: ——— Site-specific ———
 ! 🇮🇷: ——— مختص هر سایت ———
 ! 🇹🇷: ——— Siteye-özel ———
+haber32.com.tr###prayer-times
 yenisafak.com,yeniakit.com.tr,haber7.com##.prayer
 yjc.ir,tabnak.ir##a[href$="/fa/prayer"]
 adnocdistribution.ae##.footer-info-time
@@ -144,6 +153,12 @@ yozgatgazetesi.com,esgundem26.com##.namaz-vakitleri
 bursahakimiyet.com.tr##.prayertimes
 todaytime.ir##.pray_times
 bingolonline.com##.namazVakitleriBlok
+ahaber.com.tr##.menu-timer
+yesilirmakgazetesi.com.tr#?#.anket:has(+ style + .namazbg)
+inegolunsesi.com##.haberler:has(> .namaz-widget)
+takvim.com.tr##.weather > .timer
+milligazete.com.tr##.center-xs .center-xs
+yeniasir.com.tr##.timer
 ||icdn.tgrthaber.com.tr/*/cami_icon_*.png^$image
 ||img.piri.net/*imsakiye.jpg^$domain=yenisafak.com
 ||albayan.ae/res/img/prayertmbg.png^$~third-party

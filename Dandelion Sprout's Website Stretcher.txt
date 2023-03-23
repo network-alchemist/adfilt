@@ -1,5 +1,5 @@
 ! Title: 🖥️ Dandelion Sprout's Website Stretcher
-! Version: 17December2022v1-Beta
+! Version: 17March2023v1-Beta
 ! Expires: 3 days
 ! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! Description: Have you ever felt bothered by how many websites still think that everyone are using narrow monitors? Well, here's how to stretch them out like a piece of gum!
@@ -13,7 +13,7 @@
 ! Redesign
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##.category-page > div:style(max-width: 98vw !important)
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##.category-page--wrapper:style(max-width: none !important)
-prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##div[class^=Content-]:style(max-width: none !important)
+prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##div[class^=Content-]:style(max-width: calc(100vw - 100px) !important)
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##div[class^=PageContent-]:style(max-width: 97vw !important)
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##.category-list--top-level-item:style(flex: unset !important; margin-right: 15px !important)
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr##nav[class^=Navigation-]:style(max-width: 95vw !important)
@@ -53,8 +53,8 @@ classic.prisjakt.*,classic.pricespy.*,classic.prisjagt.dk,classic.hintaopas.fi,c
 
 ! Review pages
 classic.prisjakt.*,classic.pricespy.*,classic.prisjagt.dk,classic.hintaopas.fi,classic.ledenicheur.fr##.balloon-inner:style(width:75vw !important;min-width:1000px)
-classic.prisjakt.*,classic.pricespy.*,classic.prisjagt.dk,classic.hintaopas.fi,classic.ledenicheur.fr##.balloon-r:after:style(margin-left:270px !important)
-classic.prisjakt.*,classic.pricespy.*,classic.prisjagt.dk,classic.hintaopas.fi,classic.ledenicheur.fr##.balloon-r:before:style(margin-left:270px !important)
+classic.prisjakt.*,classic.pricespy.*,classic.prisjagt.dk,classic.hintaopas.fi,classic.ledenicheur.fr##.balloon-r::after:style(margin-left:270px !important)
+classic.prisjakt.*,classic.pricespy.*,classic.prisjagt.dk,classic.hintaopas.fi,classic.ledenicheur.fr##.balloon-r::before:style(margin-left:270px !important)
 classic.prisjakt.*,classic.pricespy.*,classic.prisjagt.dk,classic.hintaopas.fi,classic.ledenicheur.fr##.balloon-translated:style(width:60vw !important)
 classic.prisjakt.*,classic.pricespy.*,classic.prisjagt.dk,classic.hintaopas.fi,classic.ledenicheur.fr##.drg-sidebar:style(max-width:320px)
 
@@ -312,7 +312,7 @@ finn.no##div.sf-stacking-context-1 > div[class="md:col-span-2"]:style(grid-colum
 github.com##.container-lg:style(max-width: none !important)
 github.com##.container:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
 github.com##.container-lg:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
-github.com##.file-header:after:style(clear: left !important)
+github.com##.file-header::after:style(clear: left !important)
 github.com##.container-xl:style(max-width: none !important)
 
 ! Repo Next layout
@@ -332,15 +332,16 @@ github.com##.with-full-navigation > .repository-sidebar:style(margin-right: -190
 github.com##.discussion-sidebar:style(width: 220px !important)
 github.com##.discussion-timeline:style(width: 100% !important)
 github.com##.col-9:style(width: 100% !important)
-github.com###discussion_bucket > .col-12.col-md-9:style(width: calc(100vw - 260px) !important)
+github.com###discussion_bucket > .col-12.col-md-9:style(width: calc(100vw - 285px) !important)
 github.com###partial-discussion-sidebar[data-channel^=issue]:style(margin-left: 24px !important)
 github.com##.col-md-3.col-12.flex-shrink-0:style(width: 200px !important)
-github.com###discussion_bucket .col-md-3.col-12.flex-shrink-0:style(margin-left: 30px !important)
+!!!github.com###discussion_bucket .col-md-3.col-12.flex-shrink-0:style(margin-left: 5px !important)
 github.com##.flex-shrink-0.col-12.col-md-9:style(width: calc(100% - 250px) !important)
 github.com##.js-discussion:style(width: calc(100vw - 320px) !important)
-github.com###discussion_bucket:style(width: 100% !important)
+!!!github.com###discussion_bucket:style(width: 100% !important)
 github.com##.Layout-sidebar:style(max-width: 210px !important)
-github.com##.Layout:style(--Layout-sidebar-width: 200px !important)
+! (https://github.com/DandelionSprout/adfilt/issues/803)
+!!!github.com##.Layout:style(--Layout-sidebar-width: 200px !important)
 
 ! PRs only
 github.com##.pull-request-tab-content:style(width: calc(100vw - 275px) !important;)
@@ -379,6 +380,9 @@ github.com##.js-blob-filename:style(width: 400px !important)
 
 ! Profile page
 github.com##body.page-profile .flex-shrink-0.col-12.col-md-9:style(margin-left: 40px !important)
+
+! https://github.com/DandelionSprout/adfilt/issues/803
+github.com##.Layout--sidebarPosition-flowRow-end:style(width: 96vw !important; --Layout-sidebar-width: 220px !important; --Layout-gutter: -5px !important)
 
 ! —————————————————————————————————————————————————————————————————————
 
@@ -435,6 +439,17 @@ net,org,com##html.vector-sticky-header-enabled:not(.ve-available) .mw-content-co
 ! https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%A4%E3%81%AD%E3%83%80%E3%83%B3%E3%82%B9 (17/12/2022)
 wikipedia.org##html.ve-available .mw-content-container:style(max-width: unset !important)
 wikipedia.org##html.ve-available .mw-page-container:style(max-width: unset !important)
+! https://en.wikipedia.org/wiki/Immersive_sim (19/01/2023)
+wikipedia.org##html[class*=vector] .mw-page-container-inner:style(grid-template-columns: 11.5em minmax(0,1fr) !important; column-gap: 10px !important)
+! https://en.wikipedia.org/wiki/The_Elder_Scrolls:_Blades (23/01/2023)
+wikipedia.org##.vector-main-menu-container:style(max-width: 245px !important)
+wikipedia.org##.vector-feature-page-tools-enabled .mw-body:style(grid-template-columns: unset !important)
+! https://en.wikipedia.org/wiki/Baarle-Hertog (03/02/2023)
+wikipedia.org##html[class*=vector] .mw-table-of-contents-container:style(max-width: 300px !important)
+! https://en.wikipedia.org/wiki/Cyrillic_alphabets (02/03/2023)
+wikipedia.org##html[class*=vector] #bodyContent:style(max-width: calc(100vw - 390px) !important)
+wikipedia.org##html[class*=vector] main#content:style(column-gap: 2px !important)
+wikipedia.org##html[class*=vector] .mw-page-container:style(padding-left: 20px !important; padding-right: 10px !important)
 
 ! —————————————————————————————————————————————————————————————————————
 

@@ -1,7 +1,7 @@
 import requests
 import re
 
-SOURCES = ['https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianList.txt', 'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/AntiAdblockEntries.txt', 'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFilters-NotBrave.txt']
+SOURCES = ['https://gitlab.com/DandelionSprout/adfilt/-/raw/master/NorwegianList.txt', 'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/AntiAdblockEntries.txt', 'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFilters-NotBrave.txt']
 
 UNSUPPORTED_ABP = ['$important', ',important', '$redirect=', ',redirect=',
     ':style', '##+js', '.*#' , 'dk,no##', '!#if', '!#endif', '!+ ', '##^', '$$', '$app', '$csp=upgrade-insecure-requests', '$removeparam', 'badfilter', '!#include']
@@ -180,6 +180,12 @@ def prepare_ag(lines) -> str:
 
         line = re.sub(
            r",~inline-font,~inline-script$", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r",~inline-script,~inline-font$", 
            r"", 
            line
         )
@@ -1069,7 +1075,7 @@ def prepare_tpl(lines) -> str:
 
         line = re.sub(
            r"(# Version: .*[0-9][A-Z].*)", 
-           r"\1-Alpha", 
+           r"\1-Deprecated", 
            line
         )
 
@@ -1218,8 +1224,8 @@ def prepare_tpl(lines) -> str:
         )
 
         line = re.sub(
-           r"^#.*PFBLOCKERNG.*", 
-           r"# Pretty important note: Documentation for TPL lists is atrociously bad, and often contradict themselves and omit important details. It wasn't until March 2020 that I discovered that TPL lists refuse to block first-party files, making more than half of this list useless, although it may have a slight effect on some newssites. If you just need a browser to play Flash games on, please switch to Waterfox Classic. If you have to use IE at work, you should either install AdGuard for Windows, or quit the job on the spot in protest against ancient technology.", 
+           r"^(# Description: .*)", 
+           r"\1\n# Pretty important note: Documentation for TPL lists is atrociously bad, and often contradict themselves and omit important details. It wasn't until March 2020 that I discovered that TPL lists refuse to block first-party files, making more than half of this list useless, although it may have a slight effect on some newssites. If you just need a browser to play Flash games on, please switch to Waterfox Classic. If you have to use IE at work, you should either install AdGuard for Windows, or quit the job on the spot in protest against ancient technology.", 
            line
         )
 
@@ -1337,6 +1343,12 @@ def prepare_tpl(lines) -> str:
            line
         )
 
+        line = re.sub(
+           r"^\*.*", 
+           r"", 
+           line
+        )
+
         if is_supported_tpl(line) and not line == '':
             text += line + '\r\n'
 
@@ -1377,7 +1389,7 @@ def prepare_privoxy(lines) -> str:
 
         line = re.sub(
            r"(! Version: .*)", 
-           r"\1-Alpha", 
+           r"\1-Deprecated", 
            line
         )
 
@@ -1599,6 +1611,24 @@ def prepare_privoxy(lines) -> str:
 
         line = re.sub(
            r"\$all$", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"\$frame$", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"\$3p.*", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^\./.*\\.*", 
            r"", 
            line
         )
@@ -2173,7 +2203,7 @@ if __name__ == "__main__":
     import requests
 import re
 
-SOURCES = ['https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianList.txt', 'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFilters-NotBrave.txt', 'https://raw.githubusercontent.com/DandelionSprout/Swedish-List-for-Adblock-Plus/main/Swedish%20List%20for%20Adblock%20Plus.txt', 'https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/Finland_adb.txt']
+SOURCES = ['https://gitlab.com/DandelionSprout/adfilt/-/raw/master/NorwegianList.txt', 'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFilters-NotBrave.txt', 'https://raw.githubusercontent.com/DandelionSprout/Swedish-List-for-Adblock-Plus/main/Swedish%20List%20for%20Adblock%20Plus.txt', 'https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/Finland_adb.txt']
 
 UNSUPPORTED_ABP = ['$important', ',important', '$redirect=', ',redirect=',
     ':style', '##+js', '.*#' , 'dk,no##', '!#if', '!#endif', '!+ ', '##^', '!#i', '$app', ':not(:-abp-', ':not(:has','$csp=upgrade-insecure-requests', '$removeparam', 'badfilter']
@@ -3071,6 +3101,12 @@ def prepare_hosts(lines) -> str:
            line
         )
 
+        line = re.sub(
+           r"^127\.0\.0\.1 .*/.*", 
+           r"", 
+           line
+        )
+
         if is_supported_hosts(line):
             text += line + '\r\n'
 
@@ -3409,6 +3445,36 @@ def prepare_pihole(lines) -> str:
         line = re.sub(
            r"^# ——— (Centralised whitelist section|By default, the entries below will only).*", 
            r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^[0-9].*/.*", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^(\*[a-z0-9].*)\.", 
+           r".\1\\.", 
+           line
+        )
+
+        line = re.sub(
+           r"^(\*-.*)\.", 
+           r".\1\\.", 
+           line
+        )
+
+        line = re.sub(
+           r"^((\(|\.).*[a-z0-9])\.([a-z0-9])", 
+           r"\1\\.\3", 
+           line
+        )
+
+        line = re.sub(
+           r"([a-z0-9-])\*$", 
+           r"\1.*", 
            line
         )
 
@@ -4308,8 +4374,20 @@ def prepare_ag(lines) -> str:
         )
 
         line = re.sub(
+           r",~inline-script,~inline-font$", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
            r",~inline-font,~inline-script,~domain=", 
            r",~domain=", 
+           line
+        )
+
+        line = re.sub(
+           r"^\|\|amazonaws\.com(\^)?($|\$[ac-z,-]{1,}$).*", 
+           r"", 
            line
         )
 
@@ -4358,7 +4436,7 @@ def prepare_abp(lines) -> str:
 
         line = re.sub(
            "Dandelion Sprout's Anti-Malware List", 
-           "Dandelion Sprout's Anti-Malware List (for AdBlock and Adblock Plus)", 
+           "Dandelion Sprout's Anti-Malware List (for Adblock Plus and AdBlock)", 
            line
         )
 
@@ -4424,61 +4502,67 @@ def prepare_abp(lines) -> str:
 
         line = re.sub(
            r"([a-z*])#[?]?#(.*):(upward|nth-ancestor)\(1\)", 
-           r"\1#?#*:-abp-has(> \2)", 
+           r"\1#?#*:has(> \2)", 
            line
         )
 
         line = re.sub(
            r"([a-z*])#[?]?#(.*):(upward|nth-ancestor)\(2\)", 
-           r"\1#?#*:-abp-has(> * > \2)", 
+           r"\1#?#*:has(> * > \2)", 
            line
         )
 
         line = re.sub(
            r"([a-z*])#[?]?#(.*):(upward|nth-ancestor)\(3\)", 
-           r"\1#?#*:-abp-has(> * > * > \2)", 
+           r"\1#?#*:has(> * > * > \2)", 
            line
         )
 
         line = re.sub(
            r"([a-z*])#[?]?#(.*):(upward|nth-ancestor)\(4\)", 
-           r"\1#?#*:-abp-has(> * > * >  * > \2)", 
+           r"\1#?#*:has(> * > * >  * > \2)", 
            line
         )
 
         line = re.sub(
            r"([a-z*])#[?]?#(.*):(upward|nth-ancestor)\(5\)", 
-           r"\1#?#*:-abp-has(> * > * > * > * > \2)", 
+           r"\1#?#*:has(> * > * > * > * > \2)", 
            line
         )
 
         line = re.sub(
            r"([a-z*])#[?]?#(.*):(upward|nth-ancestor)\(6\)", 
-           r"\1#?#*:-abp-has(> * > * > * > * > * > \2)", 
+           r"\1#?#*:has(> * > * > * > * > * > \2)", 
            line
         )
 
         line = re.sub(
            r"([a-z*])#[?]?#(.*):(upward|nth-ancestor)\(7\)", 
-           r"\1#?#*:-abp-has(> * > * > * > * > * > * > \2)", 
+           r"\1#?#*:has(> * > * > * > * > * > * > \2)", 
            line
         )
 
         line = re.sub(
            r"([a-z*])#[?]?#(.*):(upward|nth-ancestor)\(8\)", 
-           r"\1#?#*:-abp-has(> * > * > * > * > * > * > * > \2)", 
+           r"\1#?#*:has(> * > * > * > * > * > * > * > \2)", 
            line
         )
 
         line = re.sub(
            r"([a-z*])#[?]?#(.*):(upward|nth-ancestor)\(9\)", 
-           r"\1#?#*:-abp-has(> * > * > * > * > * > * > * > * > \2)", 
+           r"\1#?#*:has(> * > * > * > * > * > * > * > * > \2)", 
            line
         )
 
         line = re.sub(
            r"([a-z*])#[?]?#(.*):(upward|nth-ancestor)\(10\)", 
-           r"\1#?#*:-abp-has(> * > * > * > * > * > * > * > * > * > \2)", 
+           r"\1#?#*:has(> * > * > * > * > * > * > * > * > * > \2)", 
+           line
+        )
+
+        line = re.sub(
+           r".*[,$]badfilter$", 
+           r"", 
            line
         )
 
@@ -4507,18 +4591,6 @@ def prepare_abp(lines) -> str:
         )
 
         line = re.sub(
-           r":has-text", 
-           r":-abp-contains", 
-           line
-        )
-
-        line = re.sub(
-           r":has", 
-           r":-abp-has", 
-           line
-        )
-
-        line = re.sub(
            r"^\*#.*", 
            r"", 
            line
@@ -4543,7 +4615,7 @@ def prepare_abp(lines) -> str:
         )
 
         line = re.sub(
-           r"([a-z])##([#.]?[a-z_].*:-abp-)", 
+           r"([a-z])##([#.]?[a-z_].*:has)", 
            r"\1#?#\2", 
            line
         )
@@ -4561,8 +4633,26 @@ def prepare_abp(lines) -> str:
         )
 
         line = re.sub(
+           r",~inline-script,~inline-font$", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
            r"-,popup$", 
            r"-", 
+           line
+        )
+
+        line = re.sub(
+           r".*\$network$", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^\|\|amazonaws\.com(\^)?($|\$).*", 
+           r"", 
            line
         )
 
@@ -4935,6 +5025,42 @@ def prepare_tpl(lines) -> str:
            line
         )
 
+        line = re.sub(
+           r"^\^ \\..*", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^[0-9&].*", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^://", 
+           r"-d ", 
+           line
+        )
+
+        line = re.sub(
+           r"^- \(.*", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^!\+.*", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^(# Version: .*[0-9])$", 
+           r"\1-Deprecated", 
+           line
+        )
+
         if is_supported_tpl(line):
             text += line + '\r\n'
 
@@ -5065,6 +5191,18 @@ def prepare_privoxy(lines) -> str:
            line
         )
 
+        line = re.sub(
+           r"^(# Version: .*[0-9])$", 
+           r"\1-Deprecated", 
+           line
+        )
+
+        line = re.sub(
+           r"^\|\|amazonaws\.com(\^)?($|\$[ac-z]).*", 
+           r"", 
+           line
+        )
+
         if is_supported_privoxy(line):
          text += line + '\r\n'
 
@@ -5172,7 +5310,7 @@ def prepare_hosts(lines) -> str:
 
         line = re.sub(
            r"127\.0\.0\.1 \[(.*)\]", 
-           r":: \1", 
+           r"", 
            line
         )
 
@@ -5256,6 +5394,12 @@ def prepare_hosts(lines) -> str:
 
         line = re.sub(
            r"^127\.0\.0\.1 [a-z]{1,20}$", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r" amazonaws\.com( .*|$)", 
            r"", 
            line
         )
@@ -5412,6 +5556,12 @@ def prepare_domains(lines) -> str:
            line
         )
 
+        line = re.sub(
+           r"^amazonaws\.com$", 
+           r"", 
+           line
+        )
+
         if is_supported_domains(line):
          text += line + '\r\n'
 
@@ -5431,9 +5581,28 @@ def prepare_agh(lines) -> str:
     # remove or modifiy entries with unsupported modifiers
     for line in lines:
 
+        # Doesn't seem like $denyallow will be fixed in HostfilesRegistry anytime soon as of March 2023
+        #line = re.sub(
+        #   r"^(\||:)(.*)\$doc,domain=(.*)", 
+        #   r"\1\2$denyallow=\3", 
+        #   line
+        #)
+
         line = re.sub(
-           r"^(\||:)(.*)\$doc,domain=(.*)", 
-           r"\1\2$denyallow=\3", 
+           r"^(\|\|)([a-z]{1,}\^)\$doc,domain=~(.*)", 
+           r"\1\2\n@@||\3", 
+           line
+        )
+
+        line = re.sub(
+           r"^\|\|([a-z]{2,17})\^", 
+           r"||*.\1^", 
+           line
+        )
+
+        line = re.sub(
+           r".*google\.(tk|ml).*", 
+           r"", 
            line
         )
 
@@ -5443,11 +5612,11 @@ def prepare_agh(lines) -> str:
            line
         )
 
-        line = re.sub(
-           r"\|~", 
-           r"|", 
-           line
-        )
+        #line = re.sub(
+        #   r"\|~", 
+        #   r"|", 
+        #   line
+        #)
 
         line = re.sub(
            "\$doc,", 
@@ -5624,7 +5793,7 @@ def prepare_agh(lines) -> str:
         )
 
         line = re.sub(
-           r"^\|\|.*\.(ga|ml|gq|cf|pw|loan|agency|gdn|bid|top|ooo|monster)\^.*", 
+           r"^\|\|.*[a-z0-9]\.(ga|gq|cf|pw|loan|agency|gdn|bid|top|ooo|monster)\^.*", 
            r"", 
            line
         )
@@ -5672,12 +5841,6 @@ def prepare_agh(lines) -> str:
            line
         )
 
-        line = re.sub(
-           r"@@\|\|coolcmd\.tk\|..*", 
-           r"", 
-           line
-        )
-
         # Test 20th of December 2022; see https://github.com/AdguardTeam/HostlistCompiler/issues/42
         line = re.sub(
            r"^\|\|([a-z]{2,})\^$", 
@@ -5701,6 +5864,54 @@ def prepare_agh(lines) -> str:
         line = re.sub(
            r"/\$network$", 
            r"/", 
+           line
+        )
+
+        line = re.sub(
+           r"^(\||/|:).*[&%].*", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"@@\|\|[a-zA-Z0-9.-]{0,}\|[a-zA-Z0-9.-].*", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^\|\|amazonaws\.com(\^)?($|\$[ac-z].*$)", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r".*\^,.*", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^\|\|.*\^[a-z].*", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"\|~", 
+           r"^\n@@||", 
+           line
+        )
+
+        line = re.sub(
+           r"(@@\|\|[a-z0-9.-]{1,})$", 
+           r"\1^", 
+           line
+        )
+
+        line = re.sub(
+           r"\^\^", 
+           r"^", 
            line
         )
 
@@ -6447,7 +6658,7 @@ def prepare_domains(lines) -> str:
         )
 
         line = re.sub(
-           r"^# [—¤].*", 
+           r"^# [—¤|].*", 
            r"", 
            line
         )
@@ -6506,6 +6717,12 @@ def prepare_domains(lines) -> str:
            line
         )
 
+        line = re.sub(
+           r"^# (These|Google|Gigabyte|Copied).*", 
+           r"", 
+           line
+        )
+
         if not line == '':
             text += line + '\r\n'
 
@@ -6560,7 +6777,7 @@ def prepare_domains(lines) -> str:
 
         line = re.sub(
            r"^twitter\.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid\.onion#\?#article", 
-           r"nitter.net,nitter.lacontrevoie.fr#?#.timeline-item", 
+           r"nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item", 
            line
         )
 
@@ -6632,7 +6849,7 @@ def prepare_domains(lines) -> str:
 
         line = re.sub(
            r"^(! Homepage: .*)", 
-           r"\1\n! Entry syntaxes specific to this supplement:\nnitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has(.fullname[title*=🇺🇸])\nnitter.net,nitter.42l.fr#?#.timeline-item:has(.fullname[title*=🇺🇲])", 
+           r"\1\n! Entry syntaxes specific to this supplement:\nnitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has(.fullname[title*=🇺🇸])\nnitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has(.fullname[title*=🇺🇲])\nnitter.net,nitter.lacontrevoie.fr,nitter.1d4.us##.timeline-item:has(.fullname[title*=🏴󠁧󠁢])\nnitter.net,nitter.lacontrevoie.fr,nitter.1d4.us##.timeline-item:has(.fullname[title*=🇦🇺󠁧󠁢󠁥󠁮󠁧󠁿])\nnitter.net,nitter.lacontrevoie.fr,nitter.1d4.us##.timeline-item:has(.fullname[title*=🦕][title*=🌻])\nnitter.net,nitter.lacontrevoie.fr,nitter.1d4.us##.timeline-item:has(.fullname[title*=🦖][title*=🧙‍♀️])", 
            line
         )
 
@@ -6690,7 +6907,19 @@ def prepare_domains(lines) -> str:
 
         line = re.sub(
            r"^twitter\.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid\.onion#\?#div\[style\*=\"position: absolute; \"]:not\(\[class\]\)", 
-           r"nitter.net,nitter.lacontrevoie.fr#?#.timeline-item", 
+           r"nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item", 
+           line
+        )
+
+        line = re.sub(
+           r"^twitter\.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid\.onion#\?#\.?article", 
+           r"nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item", 
+           line
+        )
+
+        line = re.sub(
+           r"^twitter\.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid\.onion#\?#\.?div\[data-testid=cellInnerDiv\]", 
+           r"nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item", 
            line
         )
 
@@ -6720,3 +6949,72 @@ if __name__ == "__main__":
         text_file.write(domains_filter)
 
     print('The Nitter list version has been generated.')
+
+#/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\/•\
+#•X••X••X••X••X••X••X••X••X••X••X••X••X••X••X••X••X••X••X••X••X••X••X••X••X•
+#\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/\•/
+
+import requests
+import re
+
+SOURCES = ['https://easylist-downloads.adblockplus.org/fanboy-notifications.txt', 'https://raw.githubusercontent.com/easylist/easylist/master/fanboy-addon/fanboy_notifications_specific_uBO.txt']
+
+OUTPUT = 'Domeneversjoner/xyzzyxfanboynotifications.txt'
+OUTPUT_DOMAINS = 'Domeneversjoner/FanboyNotifications-LoadableInUBO.txt'
+
+# function that downloads the filter list
+def download_filters() -> str:
+    text = ''
+    for url in SOURCES:
+        r = requests.get(url)
+        text += r.text
+    return text
+
+# function that prepares the filter list for AdGuard Home
+def prepare_domains(lines) -> str:
+    text = ''
+
+    previous_line = None
+
+    for line in lines:
+            
+        if line == previous_line:
+            continue
+
+        line = re.sub(
+           r"^!#include fanboy_notifications_specific_uBO\.txt$", 
+           r"", 
+           line
+        )
+
+        line = re.sub(
+           r"^! Title: Fanboy's Notifications Blocking List$", 
+           r"! Title: Fanboy's Notifications Blocking List - Loadable in uBO", 
+           line
+        )
+        line = re.sub(
+           r"^(@@.*)(!.*)", 
+           r"\1\n\2", 
+           line
+        )
+
+        if not line == '':
+            text += line + '\r\n'
+
+    return text
+
+if __name__ == "__main__":
+    print('Starting the script')
+    text = download_filters()
+    lines = text.splitlines(False)
+    print('Total number of rules: ' + str(len(lines)))
+
+    domains_filter = prepare_domains(lines)
+
+    with open(OUTPUT, "w") as text_file:
+        text_file.write(text)
+
+    with open(OUTPUT_DOMAINS, "w") as text_file:
+        text_file.write(domains_filter)
+
+    print('The Fanboy Notifications uBO version has been generated.')

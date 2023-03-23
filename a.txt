@@ -1,6 +1,6 @@
 [Adblock Plus 3.13]
 ! Title: 🏡 a.txt (Imres filtre)
-! Version: 23December2022v2-Personal
+! Version: 21March2023v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suffixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-off pre-alpha list concepts of mine.
 ! /\/\ Supercompilations: /\/\
@@ -26,10 +26,8 @@
 !#include AntiPorkMeatOnRestaurantMenusList.txt
 !#include Sensitive%20lists/AntiWeebBoobGamesList.txt
 !#include Anti-'Google%20Hangouts'%20List.txt
-!#include SerboCroatianList.txt
 !#include Other%20domains%20versions/Nitter%20De-Politificator.txt
 !#include Sensitive%20lists/Anti-'StockVectorArtOnCopypasteBackgrounds'.txt
-!#include DeviantARTQualityArtMagnifier.txt
 !#include Sandbox/deviantART%20Sanity%20Test%20List.txt
 !#include AntiFakeTransparentImagesList.txt
 !#if !adguard
@@ -41,14 +39,7 @@
 
 ! ——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——
 
-finn.no#?#.ads__unit:has-text(Emirates Airline)
-!!!finn.no#?#.ads__unit:has(a[href*="/job/"]):has-text(selger)
 metacritic.com###primary_menu_item_games
-netflix.com#?#.ptrack-content:has(a[href*="70135743"])
-netflix.com#?#.ptrack-content:has(a[href*="70242311"])
-netflix.com#?#.ptrack-content:has(a[href*="80022632"])
-netflix.com#?#.ptrack-content:has(a[href*="80039517"])
-netflix.com#?#.ptrack-content:has(a[href*="80050008"])
 nexusmods.com#?#li.mod-tile:has-text(Queen Vanessa)
 ||sproutsluckycorner.wordpress.com/wp-includes/charts/admin-bar-hours-scale-2x.php?masterbar=1
 !#if !env_mobile
@@ -59,7 +50,6 @@ dandelionsprout.asuscomm.com#?#.dashboard .card:not(.card--full):style(height: u
 !#endif
 twitch.tv##.chat-line__message[data-room=jerma985] > .message > strong[data-login=dandelionsprout]:style(background-color: #b1eac1 !important)
 twitch.tv##.chat-line__message[data-room=jerma985] > .message > strong[data-login=dandelionsprout] ~ span:style(background-color: #b1eac1 !important)
-deezer.com#?#.song:has-text(Gabfest)
 ssbwiki.com#?#.infobox tr:has(a[href^="/Tournament_legal"])
 tvtropes.org#?##main-article > ul > li, .folder > ul > li:has-text(Adult Fear)
 !pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=Cedfia i])
@@ -71,22 +61,22 @@ pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=Sofia i][alt*=Cedr
 !pixiv.net#?#.works-item:has(img[alt*=セドフィア])
 pixiv.net#?#.works-item:has(img[alt*=Sofia i][alt*=Cedric i])
 rule34.xxx###pfd
-twe.no#?#.is-10-fullhd.column:has(img[src*="/Jul-"])
-twe.no#?#div[data-id^=home-asset-tile-]:has(img[alt*=christmas i])
 finn.no##.information-container > .flex-align
 pcgamingwiki.com##.mw-spcontent h3
 pcgamingwiki.com##body.page-User_Dandelion_Sprout .new
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/MLP/i):has-text(/Sparky/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/MLP/i):has-text(/G5/i):has-text(/dragon/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/MLP/i):has-text(/G5/i):has-text(/c[oó]mic[ s.]/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Dad|Mom|Mama|Papa|Father|Mother|Child|Baby/i):has-text(/Hitch/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/MLP/i):has-text(/Sparky/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/MLP/i):has-text(/G5/i):has-text(/dragon/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/MLP/i):has-text(/G5/i):has-text(/c[oó]mic[ s.]/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Dad|Mom|Mama|Papa|Father|Mother|Child|Baby|Parent/i):has-text(/Hitch/i)
+pcgamingwiki.com##a[href*=diaper i]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/MLP/i):has-text(/Sparky/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/MLP/i):has-text(/G5/i):has-text(/dragon/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/MLP/i):has-text(/G5/i):has-text(/c[oó]mic[ s.]/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Dad|Mom|Mama|Papa|Father|Mother|Child|Baby/i):has-text(/Hitch/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/MLP/i):has-text(/Sparky/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/MLP/i):has-text(/G5/i):has-text(/dragon/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/MLP/i):has-text(/G5/i):has-text(/c[oó]mic[ s.]/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Dad|Mom|Mama|Papa|Father|Mother|Child|Baby|Parent/i):has-text(/Hitch/i)
 e621.net,e926.net,donmai.us,allthefallen.moe##article[data-tags*=mlp][data-tags*=sparky]
 adressa.no##a[href^="https://trd.by/underholdning/i/"]
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=angels_with_scaly_wings])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=angels_with_scaly_wings])
+rule34.xxx###subnavbar a[href="mailto:dmca@booru.org"]
 store.playstation.com#?#.psw-l-grid > li:has-text(/Angels with Scaly Wings/i)
 netflix.com##.notifications
 theguardian.com#?#li.fc-slice__item:has-text(Simon Jenkins)
@@ -95,9 +85,6 @@ kidscreen.com#?#.listpost:has(a[href*=avatar-])
 kidscreen.com#?#.listpost:has(a[href*=funko])
 kidscreen.com#?#.listpost:has(a[href*=roblox])
 kidscreen.com#?#.listpost:has(a[href*=metaverse])
-kidscreen.com#?#.listpost:has(a[href*=powerpuff])
-adressa.no,nidaros.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com##a[href*=kyrgios i]
-adressa.no,nidaros.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no##a[href*=tennisstjerne i]
 twe.no##[data-id*=".noteworthy"]
 twe.no##[data-id*=".game-of-thrones"]
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-dragon- i])
@@ -113,9 +100,15 @@ kemono.party#?#.post-card:-abp-has(a:has-text(/ Ch\. [1-9]/))
 soundcloud.com#?#.badgeList__item,.g-scrollable-inner li,.systemPlaylistTrackList__item,.playableTile,.sound:has-text(/Tournament/i)
 soundcloud.com#?#.badgeList__item,.g-scrollable-inner li,.systemPlaylistTrackList__item,.playableTile,.sound:has-text(/Tourney/i)
 ||fileplanet.com^$all
-finn.no#?#.ads__unit:has(a[href*="/job/"]):has-text(/Selger | salg\?|salgskarriere|Butikkselger|salgs|inkasso|salgskonsulent|[sS]elgere|BPA|UPHEADS|salgsassistent|R[eE][mM][aA] 1000|Storcash|Berge Bemanning|Fretex|Bitastad/)
+finn.no#?#.ads__unit:has(a[href*="/job/"]):has-text(/Selger | salg\?|salgskarriere|Butikkselger|salgs|inkasso|salgskonsulent|[sS]elgere|BPA|UPHEADS|salgsassistent|R[eE][mM][aA] 1000|Storcash|Berge Bemanning|Fretex|Bitastad|Emirates Airline/)
 foodora.no#?#.vendor-tile-wrapper:has-text(Pizz):not(:has-text(Egon))
 microsoft.com#?##primaryR1:style(padding-left: 2% !important; padding-right: 0% !important)
+twitch.tv#?#.tw-transition:has-text(/Vinesauce|FIFA|Overwatch|World of Warcraft|Melee|Hearthstone|League of Legends/)
+netflix.com#?#.lolomoRow:has(svg[id^=rank])
+netflix.com##.billboard-row
+vinmonopolet.no##.product-item:has-text(/ Øl |Chardonnay|Lager|Muscat|Riseling|Rosé|Weisse|Martini|Pinot Noir|Sauvignon|Pilsner|Carlsberg/)
+||fandom.com/f^|$document
+finn.no###buyer-experience-collections-podlet-app
 !#if !adguard
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post,.Comment,.thing:has-text(/Morb/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post,.Comment,.thing:has-text(/( |ago)Slint[ p]/i)
@@ -132,12 +125,14 @@ github.com#?#div[id^=issue_]:has-text(/\sc2xusnp\q6/)
 pixiv.net#?#.ui-profile-popup[data-user_name]:upward(1):has-text(/webbedf\ingers/)
 pixiv.net#?#ul[class^=_] > li[class*=" "]:has-text(webbedfingers)
 discord.com##div[class*=blockedSystemMessage-]:upward(3)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/skytha\ie/)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(Swoop_1507)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/JorgeSassak\i/)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/mar\inettessm\i/)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Illumination/Paramount/)
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=julius_zimmerman])
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/skytha\ie/)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(Swoop_1507)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/JorgeSassak\i/)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/mar\inettessm\i/)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Illumination/Paramount/)
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=julius_zimmerman])
+adressa.no,nidaros.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com##a[href*=kyrgios i]
+adressa.no,nidaros.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no##a[href*=tennisstjerne i]
 
 ! Websites I just really don't like, without it being deserving of going on public lists
 !!!||deviantart.com^$document
@@ -184,11 +179,17 @@ crowdin.com##.untranslated_phrase:has-text(ヤンデレ)
 crowdin.com##.untranslated_phrase:has-text(ネプテューヌ)
 crowdin.com##.untranslated_phrase:has-text(/^[ァ-ンー]{4}$/)
 
-! TikTok
+! TikTok and Douyin
 ||tiktokcdn.com^
 ||tiktokv.com^
-||tiktok.com^$3p
+||tiktok.com^$third-party
 ||byteoversea.com^
+||zijieapi.com^
+||feelgood.cn^
+||bytescm.com^
+||bytegoofy.com/obj^
+||bytedance.com/web/report^
+||bytedance.com/websdk/v*/getInfo^
 
 ! To attempt to reduce the amount of irrelevant sites (from a "Looking for sites to block ads on" perspective) on https://dnpedia.com/tlds/topm.php
 dnpedia.com#?#.ui-row-ltr:has-text(.kommune)
@@ -202,6 +203,10 @@ dnpedia.com#?#.ui-row-ltr:has-text(parti)
 dnpedia.com#?#.ui-row-ltr:has-text(grill)
 dnpedia.com#?#.ui-row-ltr:has-text(vgs)
 dnpedia.com#?#.ui-row-ltr:has-text(klinikk)
+dnpedia.com#?#.ui-row-ltr:has-text(.ac.)
+dnpedia.com#?#.ui-row-ltr:has-text(.gov.)
+dnpedia.com#?#.ui-row-ltr:has-text(akademi)
+dnpedia.com#?#.ui-row-ltr:has-text(.edu.)
 
 ! So that I don't mistake links to it for links to r/thomastheplankengine
 ||reddit.com/r/thomasthetankengine^$doc
@@ -210,6 +215,10 @@ dnpedia.com#?#.ui-row-ltr:has-text(klinikk)
 !!!2fa.directory##.table-success:not(:has(img[alt=U2F], .custom-hardware-popover))
 ! Makes airport flight checkers only show international flights (Unlikely to get a standalone list anytime soon, and shouldn't be turned on 24/7)
 !!!avinor.no##.flight-single:has-text(/Oslo|Bergen|Sandefjord|Stavanger|Sandnes|Rørvik|Mo i Rana|Bodø|Namsos|Brønnøysund|Mosjøen|Ålesund|Tromsø|Harstad/)
+! Aims to make Google search for Apple App Store apps only show Mac apps (Shouldn't be turned on 24/7)
+!!!www.google.*##.g:has-text(Gratis · ‎iOS)
+! Aims to remove "Coming soon" games from "New releases" searches
+!!!store.epicgames.com#?#section li:has([data-testid$=subtitle]:has-text(Available))
 
 ! ↓ Below are categories that may or may not get independent lists for public use one day. ↓
 ! And yes, there's a reason why a.txt is for private use only: It shows the seething despisement I have against large chunks of planet Earth.
@@ -225,22 +234,36 @@ dnpedia.com#?#.ui-row-ltr:has-text(klinikk)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post,.Comment:has-text(/Teen Titan/i):not(:has-text(/sixteen/i))
 twitch.tv#?#.vod-message,.chat-line__message:has-text(/Teen Titans/i)
 !#endif
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=teen_titans]:not([title*="go "], [title*=go_]))
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=teen_titans]:not([title*="go "], [title*=go_]))
 
 ! Anti-'Cartoon hipsters', unless listed in other categories on this list
 microsoft.com#?#.f-size-medium.m-content-placement-item:has-text(Animation domination)
-netflix.com#?#.ptrack-content:has(a[href*="70142394"])
-netflix.com#?#.ptrack-content:has(a[href*="70300626"])
-netflix.com#?#.ptrack-content:has(a[href*="80014749"])
-netflix.com#?#.ptrack-content:has(a[href*="80050007"])
-netflix.com#?#.ptrack-content:has(a[href*="80095649"])
-netflix.com#?#.ptrack-content:has(a[href*="80178943"])
-netflix.com#?#.ptrack-content:has(a[href*="81004957"])
 osu.ppy.sh#?#.beatmapsets__item:has-text(My Life As A Teenage Robot)
 kisscartoon.*##.related_list.full.series_links
 kisscartoon.*##.mb15
 graphtreon.com##div.hotCreators-box.col-md-4
 twe.no#?#.is-4-desktop:has(img[alt^="Avatar: "])
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/[# ]Amphibia([.,;:?!_ -]|\')/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/[# ]Encanto([.,;:?!_ -]|\')/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/adult animation/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/animation medium/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Cartoon ?Network/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Miraculous:? ?Ladybug/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Bee ?(and|&) ?Puppycat/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/[# ]OK K\.?O[ :]/)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Disney ?Channel/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Dexter\'?s ?Lab/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text( AO3 )
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Wander ?Over ?Yonder/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text( Bluey )
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text( Bubbles )
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Patrick ?Star/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Hazbin/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Tara ?Strong/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Clarence/i):has-text(CN)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/SpongeBob/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Uncle ?Grandpa/i)
+nitter.com,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/We Ba(re|by) Bears/i)
 !#if !adguard
 artstation.com#?#.gallery-grid-item,.project:has-text(Barkhat Gay Traveler)
 !#endif
@@ -316,7 +339,7 @@ www.youtube.com#?#[lockup]:has-text(Sing a long )
 www.youtube.com#?#[lockup]:has-text(Berrysitting)
 !#endif
 
-! Club-level football in Europe is a dead sport
+! Club-level football is a dead sport
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=haaland i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=mbappe i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=manchester-city i]
@@ -352,8 +375,17 @@ adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.co
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=neymar i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=-messi- i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*="/messi-" i]
-adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=christiano-ronaldo i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=christiano i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=-cl- i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=guardiola i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no##a[href*=cristiano i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no##a[href*=ronaldo i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no##a[href*=odegaard i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no##a[href*=supercup i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no##a[href*=deadline-day i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no##a[href*=fifa i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no##a[href*=al-nassr i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,tv2.no##a[href*=overgange i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no##a[href*=supre-liga i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no##a[href*=mesterliga i]
 adressa.no,nrk.no,vg.no,dagbladet.no##a[href*=meisterliga i]
@@ -386,21 +418,31 @@ twe.no#?#.is-10-widescreen > .columns > .column:has-text(Premier League)
 viaplay.no##video[poster*=_PL_]
 viaplay.no##a[href*=premier-league]
 ||comfyballs.no/wp-content/uploads/sites/*/hero-comfy-pl-*.jpg|$image
+theguardian.com##[name=MostViewedRightWrapper]
 !#if !adguard
 tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Haaland/i)
 tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(De Jong)
 tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(United)
 tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/fotball/i):has-text(/pod[kc]ast/i)
 tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/la ?liga/i)
-tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Balague/i)
+tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Balagu[eé]/i)
 tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/league/i)
+tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Ch?ristiano/i)
+tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/scoring/i)
+tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Ronaldo/i)
+tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Se måle/i)
+tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/City-stjerne/i)
+tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Nassr/i)
+tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Scor[ei]/i)
+tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Fifa/i)
+tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(Messi )
 !#endif
 
 ! Twitter roleplaying, which clutters searches
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/@mlpg5_/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(@mlp_)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/@MLP_?G5_/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(@G5_)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/@mlpg5_/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(@mlp_)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/@MLP_?G5_/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(@G5_)
 
 ! Anti-'Saudi Arabian culture that tries to hide that they punish atheism with death penalties'
 en.wikipedia.org#?#.wikitable tr:has-text(Saudi Arabia)
@@ -409,6 +451,8 @@ adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,express
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se##a[href*=pytlick i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.com##a[href*=-jeddah- i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.com##a[href*=phil-mickelson i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.com##a[href*=-dakar- i]
+dr.dk,tv2.dk,ekstrabladet.dk##a[href*=motorcykel i][href*=oerken i]
 
 ! Mani-pest v3 (I will fight to the bitter end)
 ||github.com/*/download/*/uBlock0.mv3.zip^$all
@@ -424,6 +468,7 @@ adguard.com##a[href*="/adguard-mv3"]
 tumblr.com#?#div[data-id][tabindex="-1"]:has-text(/Homestuck/i)
 tumblr.com#?#div[data-id][tabindex="-1"]:has-text(/Fantroll/i)
 tumblr.com#?#div[data-id][tabindex="-1"]:has-text(/Trollsona/i)
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=homestuck])
 
 ! Fake episode tracking site that is just one big ad for Disney+
 ||simkl.com^$doc
@@ -432,6 +477,7 @@ google.*##.g:has(a[href*="simkl.com"])
 ! There's no reason to watch Formula 1 after Viasat's bootlicking of Premier League fanboys
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no##a[href*=formel-1 i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no##a[href*=formel_1 i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no##a[href*=formel1 i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=formula-1 i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=formula_1 i]
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=drive-to-survive i]
@@ -451,10 +497,11 @@ adressa.no,nrk.no,dr.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=magnus
 adressa.no,nrk.no,dr.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=suzuka i]
 adressa.no,nrk.no,dr.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=-f1- i]
 adressa.no,nrk.no,dr.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*="/f1-" i]
+adressa.no,nrk.no,dr.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*="/lando-" i]
+adressa.no,nrk.no,dr.dk,vg.no,dagbladet.no,theguardian.com,bbc.*##a[href*=-lando- i]
 theguardian.com,bbc.*##a[href*=-f1s- i]
 theguardian.com,bbc.*##a[href*="/f1s-" i]
 !#if !adguard
-tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Fifa/i)
 
 !#if false
 ! Anti-'2022 World Cup'
@@ -489,7 +536,6 @@ dr.dk##a[href*="/seneste/"]
 dr.dk##a[href*=seneste-sport]
 ! Use https://tv.nrk.no/programmer/barn instead
 ://tv.nrk.no^|$document
-tv2.no#?#.article,.article--article-list,.lp-a,.col-sm-12,article.column:has-text(/Fifa/i)
 !#endif
 
 ! ———————————————————————————————————————————————————————————————————————————————————————————————
@@ -502,9 +548,11 @@ tv2.no#?#.article,.lp-a,.col-sm-12,article.column:has-text(/Love Island/i)
 tv2.no#?#.article,.lp-a,.col-sm-12,article.column:has-text(/Ex on the Beach/i)
 tv2.no#?#.article,.lp-a,.col-sm-12,article.column:has-text(/Storbonde/i)
 tv2.no#?#.article,.lp-a,.col-sm-12,article.column:has-text(/Tvekamp/i)
+tv2.no#?#.article,.lp-a,.col-sm-12,article.column:has-text(/Røpealarm/i)
 !#endif
 www.nrk.no#?#.kur-room:has-text(«Skam»)
 www.nrk.no#?#div.relation:has-text(«Skam»)
+www.tv2.no##a[href*=farmen i]
 ekstrabladet.dk##a[href*="/opinionen/pernillevermund/"]
 
 ! Depressing winter stuff
@@ -528,6 +576,8 @@ nrk.no##a[href*="/stjernestoev"]
 nrk.no##a[href*="/snoefall"]
 nrk.no##a[href*=hovmester]
 nrk.no#?#.kur-floor--apartment:has-text(God jul)
+twe.no#?#.is-10-fullhd.column:has(img[src*="/Jul-"])
+twe.no#?#div[data-id^=home-asset-tile-]:has(img[alt*=christmas i])
 
 ! Highly inept and vague customer service forums
 ||answers.microsoft.com^$document
@@ -602,6 +652,7 @@ thehill.com##a[href^="/opinion/"]
 ! To browse more easily through AdGuard Filters' and EasyList's issue trackers
 github.com#?#.js-issue-row:has-text(N: AdGuard for iOS)
 github.com#?#.js-issue-row:has-text(N: AdGuard for Safari)
+github.com#?#.js-issue-row:has-text(N: AdGuard Content Blocker)
 !!!github.com#?#.js-issue-row:has-text(A: In progress)
 github.com#?#.js-issue-row:has-text(A: Resolved)
 !!!github.com#?#.js-issue-row:has-text(T: Annoyance)
@@ -671,6 +722,19 @@ disneyplus.com#?#.slick-slide:has(div[alt*=Kardashian i], div[alt*=Marvel i], di
 disneyplus.com##span.item[data-route=STARTSIDE]
 disneyplus.com##.slice-slide:style(opacity: 1 !important)
 disneyplus.com##span.item[data-route=ORIGINALS]
+
+! Script blocking for PRC sites
+*/log/$domain=bilibili.com
+||cm.bilibili.com^$all
+/bili-collect.js$all
+||bilibili.com^*/data/collector^$all
+||boss.hdslb.com^$all
+||bilibili.com/x/click-interface^$all
+||bilibili.com/*/is_forbid^$all
+||bilibili.com/*/log-reporter.js$all
+*/laputa-header/$all
+||hdslb.com/*/pcdn-$all
+||hdslb.com/*/nc-loader-$all
 
 ! Workaround while testing for Chrome freezes (Specifically to see if "Google Hit Hider by Domain" can remain turned off)
 google.*##div[data-ow]:has(a[href*="deviantart.com"])

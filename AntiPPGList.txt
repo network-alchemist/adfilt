@@ -1,6 +1,6 @@
 [Adblock Plus 3.13]
 ! Title: 🏳 Anti-'Powerpuff Girls' List
-! Version: 07December2022v1-Alpha
+! Version: 10March2023v2-Alpha
 ! Expires: 5 days
 ! Description: «Powerpuff Girls», especially the 90's-00's seasons, is a cartoon that taught children such values as beating others senseless, extrajudicial violence, vigilante mob beatings, the expendability of entire neighbourhoods, and discrimination against past offenders. If you too are absolutely embarassed by ever having watched that show, here's a list for you.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -21,6 +21,8 @@ deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][hr
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/pibby-" i])
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=Rowdyruff i])
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=Townsville i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=ppgs- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=Duplikate- i])
 deviantart.com##a[data-hook][href*="/art/"][href*=-sedusa i]
 deviantart.com##a[data-hook][href*="/art/"][href*=-utonium i]
 deviantart.com##a[data-hook][href*="/art/"][href*=Blossom i][title*=Buttercup i]
@@ -36,23 +38,25 @@ deviantart.com##a[data-hook][href*="/art/"][href*=-pibby- i]
 deviantart.com##a[data-hook][href*="/art/"][href*="/pibby-" i]
 deviantart.com##a[data-hook][href*="/art/"][href*=Rowdyruff i]
 deviantart.com##a[data-hook][href*="/art/"][href*=Townsville i]
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/ morbucks/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Bubbles/i):has-text(/Blossom/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Buttercup/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Chicas ?Superpoderosas/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Mojo Jojo/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Ms\.? ?Keane/)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Power ?Puff/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Princess More?fucks/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Rowdyruff/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/パワー?パフ/)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Morbuck\'?s/)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(PPG):not(:has-text(NBA)):not(:has-text(/EuroLeague|basket/i))
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text( ppg):not(:has-text(NBA)):not(:has-text(/EuroLeague|basket/i))
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Sedusa)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Utonium)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(像素小女警)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Pibby)
+deviantart.com##a[data-hook][href*="/art/"][href*=ppgs- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=Duplikate- i]
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/ morbucks/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Bubbles/i):has-text(/Blossom/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Buttercup/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Chicas ?Superpoderosas/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Mojo Jojo/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Ms\.? ?Keane/)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Power ?Puff/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Princess More?fucks/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Rowdyruff/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/パワー?パフ/)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Morbuck\'?s/)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(PPG):not(:has-text(NBA)):not(:has-text(/EuroLeague|basket/i))
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text( ppg):not(:has-text(NBA)):not(:has-text(/EuroLeague|basket/i))
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Sedusa)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Utonium)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(像素小女警)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Pibby)
 knowyourmeme.com#?#.c.rel:has-text(/ morbucks/i)
 knowyourmeme.com#?#.c.rel:has-text(/Bubbles/i):has-text(/Blossom/i)
 knowyourmeme.com#?#.c.rel:has-text(/Buttercup/i)
@@ -127,23 +131,23 @@ tumblr.com#?#.post:has-text(Sedusa)
 tumblr.com#?#.post:has-text(Utonium)
 tumblr.com#?#.post:has-text(像素小女警)
 tumblr.com#?#.post:has-text(Pibby)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/ morbucks/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Bubbles/i):has-text(/Blossom/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Buttercup/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Chicas ?Superpoderosas/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Mojo Jojo/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Ms\.? ?Keane/)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Power ?Puff/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Princess More?fucks/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Rowdyruff/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/パワー?パフ/)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Morbuck\'?s/)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(PPG):not(:has-text(NBA)):not(:has-text(/EuroLeague|basket/i))
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text( ppg):not(:has-text(NBA)):not(:has-text(/EuroLeague|basket/i))
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(Sedusa)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(Utonium)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(像素小女警)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(Pibby)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/ morbucks/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Bubbles/i):has-text(/Blossom/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Buttercup/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Chicas ?Superpoderosas/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Mojo Jojo/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Ms\.? ?Keane/)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Power ?Puff/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Princess More?fucks/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Rowdyruff/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/パワー?パフ/)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Morbuck\'?s/)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(PPG):not(:has-text(NBA)):not(:has-text(/EuroLeague|basket/i))
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text( ppg):not(:has-text(NBA)):not(:has-text(/EuroLeague|basket/i))
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(Sedusa)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(Utonium)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(像素小女警)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(Pibby)
 m.youtube.com#?#.compact-media-item:has-text(/ morbucks/i)
 m.youtube.com#?#.compact-media-item:has-text(/Blossom/i):has-text(/Buttercup/i)
 m.youtube.com#?#.compact-media-item:has-text(/Bubbles/i):has-text(/Blossom/i)
@@ -362,6 +366,7 @@ furrynetwork.com#?#.media-grid__item:has-text(/Power ?Puff/i)
 tvtropes.org#?##main-article > ul > li, .folder > ul > li:has-text(/Powerpuff/i)
 tvtropes.org###main-article .twikilink[href*=Powerpuff]
 pixivision.net#?#.am__work:has-text(/パワー?パフ/)
+kidscreen.com#?#.listpost:has(a[href*=powerpuff])
 
 ! Professional media sites
 netflix.com#?#.ptrack-content:has(a[href*="80130973"])

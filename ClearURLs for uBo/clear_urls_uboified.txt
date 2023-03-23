@@ -1,11 +1,11 @@
 ! Title: ClearURLs for uBo (unofficial)
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
 ! Description: Want to use ClearURLs' tracking protection without installing another extension? This list is a (unofficial) version of the ClearURLs rules, designed for use in uBlock Origin and AdGuard. This ONLY includes the URL parameter removal functionality from ClearURLs, and not the other functions.
-! Last updated: 22/12/2022
-! Script last updated: 7/12/2022
+! Last updated: 27/02/2023
+! Script last updated: 26/2/2023
 ! Expires: 1 day
 ! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
-! Warning: This list may break websites, and contains possibly-problematic rules. There is not much the Adfilt maintainers can do, as this list is just the ClearURLs rules converted into a uBo/AdGuard filterlist. Use with caution.
+! Warning: This list may break websites, and contains many problematic rules. There is not much the Adfilt maintainers can do, as this list is just the ClearURLs rules converted into a uBo/AdGuard filterlist. Use with caution.
 ! Note: This was based off of https://gist.github.com/rusty-snake/5cd83a87d680ecbd03e79a1a06758207, which is based off of https://github.com/ClearURLs/Rules. The maintainers of Adfilt (DandelionSprout and iam-py-test, and contributors) have made some modifications as to keep it up-to-date with the source and to fix issues.
 ! IMPORTANT NOTE: Do not modify this file in pull requests. This file is auto-generated and therefore any direct edit to it will be undone. Instead, modifications must be made to https://github.com/DandelionSprout/adfilt/blob/master/ClearURLs%20for%20uBo/compile.py or to the upstream ClearURLs rules. If you experience an issue, please report it to https://github.com/DandelionSprout/adfilt/discussions/163, and we (the Adfilt maintainers and community) will look into it and either add an exclusion or report it to the ClearURLs team.
 ! Important note about the purpose of this list: this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view params on the strict-block page to bypass it.
@@ -81,7 +81,6 @@
 ||google.*^$removeparam=/^gws_[a-z]*=/
 ||google.*^$removeparam=atyp
 ||google.*^$removeparam=vet
-||google.*^$removeparam=zx
 ||google.*^$removeparam=_u
 ||google.*^$removeparam=je
 ||google.*^$removeparam=dcr
@@ -144,6 +143,7 @@ $removeparam=s_cid
 $removeparam=vero_conv
 $removeparam=vero_id
 $removeparam=wickedid
+$removeparam=twclid
 ||youtube.com^$removeparam=feature
 ||youtube.com^$removeparam=gclid
 ||youtube.com^$removeparam=kw
@@ -264,6 +264,7 @@ $removeparam=wickedid
 ||linkedin.com^$removeparam=refId
 ||linkedin.com^$removeparam=trk
 ||linkedin.com^$removeparam=/^li[a-z]{2}=/
+||linkedin.com^$removeparam=trackingId
 ||linkedin.com/learning$removeparam=u
 ||spiegel.de^$removeparam=b
 ||instagram.com^$removeparam=igshid
@@ -295,8 +296,6 @@ $removeparam=wickedid
 ||medium.com^$removeparam=source
 ||swp.de^$removeparam=source
 ||wps.com^$removeparam=from
-||firefox.com^$removeparam=context
-||firefox.com^$removeparam=entrypoint
 ||firefox.com^$removeparam=form_type
 ||mozilla.org^$removeparam=as
 ||kevinroebert.gitlab.io/ClearUrls/void/index.html$removeparam=test
@@ -405,9 +404,11 @@ $removeparam=wickedid
 ||bilibili.com^$removeparam=from_source
 ||bilibili.com^$removeparam=from
 ||bilibili.com^$removeparam=seid
+||bilibili.com^$removeparam=mid
 ||bilibili.com^$removeparam=share_source
 ||bilibili.com^$removeparam=msource
 ||bilibili.com^$removeparam=refer_from
+||bilibili.com^$removeparam=share_from
 ||bilibili.com^$removeparam=share_medium
 ||bilibili.com^$removeparam=share_source
 ||bilibili.com^$removeparam=share_plat
@@ -623,15 +624,27 @@ $removeparam=wickedid
 ||nova.cz^$removeparam=dop_source_zone_name
 ||nova.cz^$removeparam=dop_req_id
 ||nova.cz^$removeparam=dop_id
+||mercadolibre.com^$removeparam=DEAL_ID
+||mercadolibre.com^$removeparam=L
+||mercadolibre.com^$removeparam=S
+||mercadolibre.com^$removeparam=T
+||mercadolibre.com^$removeparam=V
+||mercadolibre.com^$removeparam=pdp_filters
+||mercadolibre.com^$removeparam=position
+||mercadolibre.com^$removeparam=search_layout
+||mercadolibre.com^$removeparam=tracking_id
+||mercadolibre.com^$removeparam=type
+||mercadolibre.com^$removeparam=/^c_[_a-zA-Z]+=/
+||mercadolibre.com^$removeparam=/^me\.[_a-zA-Z]+=/
+||mercadolibre.com^$removeparam=/^reco_[_a-zA-Z]+=/
+||quizlet.com^$removeparam=funnelUUID
 @@/^https?:\/\/([a-z0-9-]+\.)*?amazon(\.[a-z]{2,}){1,}\/gp\/.*?(redirector.html|cart\/ajax-update.html|video\/api\/)/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?amazon(\.[a-z]{2,}){1,}\/(hz\/reviews-render\/ajax\/|message-us\?|s\?)/$removeparam
 @@||mail.google.com/mail/u/$removeparam
 @@/^https?:\/\/(docs|accounts)\.google(\.[a-z]{2,}){1,}/$removeparam
-@@/^https?:\/\/([a-z0-9-\.])*drive\.google\.com\/videoplayback/$removeparam
+@@/^https?:\/\/([a-z0-9-\.])*(chat|drive)\.google\.com\/videoplayback/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?google(\.[a-z]{2,}){1,}(\/upload)?\/drive\//$removeparam
 @@||news.google.com.*?hl=$removeparam
-@@||hangouts.google.com/webchat*zx=$removeparam
-@@||client-channel.google.com/client-channel*zx=$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?google(\.[a-z]{2,}){1,}\/s\?tbm=map.*?gs_[a-z]*=./$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?google(\.[a-z]{2,}){1,}\/(complete\/search|setprefs|searchbyimage)/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?google(\.[a-z]{2,}){1,}\/(appsactivity|aclk\?)/$removeparam
@@ -688,6 +701,7 @@ $removeparam=wickedid
 @@||mozilla.org/api$removeparam
 @@||comment-cdn.9gag.com/*comment-list.json?$removeparam
 @@||api.bilibili.com^$removeparam
+@@||space.bilibili.com^$removeparam
 @@||marketscreener.com/search/?$removeparam
 
 ! This is an allowlist added by the Adfilt maintainers
@@ -701,3 +715,5 @@ $removeparam=wickedid
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4081177
 ! https://github.com/ClearURLs/Rules/issues/54
 @@||webapps.sftc.org/captcha/captcha.dll$removeparam
+! https://github.com/ClearURLs/Rules/issues/46
+@@||track.sendle.com/tracking$removeparam=ref

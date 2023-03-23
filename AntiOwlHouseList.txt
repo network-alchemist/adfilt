@@ -1,6 +1,6 @@
 [Adblock Plus 3.13]
 ! Title: 🏙 Anti-'The Owl House' List
-! Version: 27November2022v1-Alpha
+! Version: 10March2023v1-Alpha
 ! Expires: 5 days
 ! Description: The Owl House is yet another schoolhouse crush drama disguised as yet another Harry Potter clone for tweens. This list will help you stick to more inventive media instead.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -25,24 +25,28 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#art
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:has-text(/ Raeda([ .,:;_-]|\")/i)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:has-text(/Luz/i):has-text(/Amity/i)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:has-text(Dana ):has-text(/Disney/i):not(:has-text(Simpson))
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(TOH)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Owl ?House/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Owl ?Lady/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text( toh )
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Toh(\n| )/)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Lumity)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/[ #@]lumity/)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/ Luz /i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Noceda/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/[ #@]Raine([ .,:;_-]|\")/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/[ #@thz]amity([ .,:;_-]|\")/i):not(:has-text(/Square/i)):not(:has-text(/Pok[ée]mon/i))
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Odalia)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Dana ?Terrace/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Clawthorne/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Hexside/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/ Raeda([ .,:;_-]|\")/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Luz/i):has-text(/Amity/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Dana ):has-text(/Disney/i):not(:has-text(Simpson))
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:has-text(/Hexside/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:has-text(/Hexsquad/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(TOH)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Owl ?House/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Owl ?Lady/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text( toh )
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Toh(\n| )/)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Lumity)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/[ #@]lumity/)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/ Luz /i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Noceda/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/[ #@]Raine([ .,:;_-]|\")/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/[ #@thz]amity([ .,:;_-]|\")/i):not(:has-text(/Square/i)):not(:has-text(/Pok[ée]mon/i))
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Odalia)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Dana ?Terrace/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Clawthorne/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Hexside/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/ Raeda([ .,:;_-]|\")/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Luz/i):has-text(/Amity/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Dana ):has-text(/Disney/i):not(:has-text(Simpson))
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Hexside/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Hexsquad/i)
 pinterest.*#?#div[class*=_brioPin],div[data-grid-item]:has-text(/Owl ?House/i)
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=owl_house i])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=owlhouse i])
@@ -74,7 +78,7 @@ pixiv.net#?#.works-item:has(img[alt*=Willuz i])
 pixiv.net#?#.works-item:has(img[alt*="Willow Park" i])
 pixiv.net#?#.works-item:has(img[alt*=Disney i][alt~=Eda i])
 pixiv.net#?#.works-item:has(img[alt*=Noceda i])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=owl_house])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=owl_house])
 e621.net,donmai.us,allthefallen.moe##article[data-tags*=owl_house]
 dailymotion.com#?#[class*=__videoCard___]:has-text(/Owl ?House/i)
 furaffinity.net#?#figure:has(> figcaption > p > a[title*="Owl House" i])
@@ -108,6 +112,7 @@ playpilot.com#?#.grid > .container:has(a[href*=owl-house])
 ||danaterrace.tumblr.com^$document
 custom-cursor.com#?#.mb20:has-text(Owl House)
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=owl-house i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=owlhouse i])
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-eda- i])
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-amity- i])
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/amity-" i])
@@ -118,7 +123,12 @@ deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][hr
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=clawthorne i])
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=odalia-blight i])
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=noceda i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-lumity- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=willow i][href*=-gus- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=hexside i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=hexsquad i])
 deviantart.com##a[data-hook][href*="/art/"][href*=owl-house i]
+deviantart.com##a[data-hook][href*="/art/"][href*=owlhouse i]
 deviantart.com##a[data-hook][href*="/art/"][href*=-eda- i]
 deviantart.com##a[data-hook][href*="/art/"][href*=-amity- i]
 deviantart.com##a[data-hook][href*="/art/"][href*="/amity-" i]
@@ -129,6 +139,10 @@ deviantart.com##a[data-hook][href*="/art/"][href*="/Lumity-" i]
 deviantart.com##a[data-hook][href*="/art/"][href*=clawthorne i]
 deviantart.com##a[data-hook][href*="/art/"][href*=odalia-blight i]
 deviantart.com##a[data-hook][href*="/art/"][href*=noceda i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-lumity- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=willow i][href*=-gus- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=hexside i]
+deviantart.com##a[data-hook][href*="/art/"][href*=hexsquad i]
 tumblr.com#?#ol li[data-index] > [href*="owl%20house"]:upward(2)
 tumblr.com#?#div[data-id][tabindex="-1"]:has-text(/Owl ?House/i)
 tumblr.com#?#div[data-id][tabindex="-1"]:has-text(/Lumity/i)

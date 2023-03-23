@@ -1,6 +1,6 @@
 [Adblock Plus 3.13]
 ! Title: 👩 Anti-Futa List
-! Version: 27October2022v1
+! Version: 10March2023v2
 ! Expires: 3 days
 ! Description: It seems to me that a common thought process on porn sites are "Hey, do you know what would've made this cute woman even sexier? I know. We should give her a dick!". Well, not anymore, thanks to this list.
 ! Note that on some of these sites, such as Pixiv, quite a few futa images are uploaded without having "futa" in its title or in its search result metadata, making them practically unblockable through this method. Categories known to have significant slipthrough percentages are marked with a 🔴.
@@ -127,27 +127,28 @@ furaffinity.net#?#.t-image:has-text(/Futas?[.?! ]/)
 furaffinity.net#?#.t-image:has-text(/ futas?[.?! ]/i)
 furaffinity.net#?#.t-image:has-text(/futanari/i)
 furaffinity.net#?#.t-image:has-text(/dickgirl/i)
+furaffinity.net#?#figure:has-text(/Futa(by|n| )/)
 
 ! ——— Rule34xxx ———
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=futanari])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=" futa_"])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*="1futa"])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=dickgirl])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=gigantic_breasts][title*=gigantic_penis])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im###subnavbar a[href$="&s=random"]
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=hyper_balls][title*=hyper_penis])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=multi_breasts][title*=multi_penis])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=solo][title*=breast][title*=penis]:not([title*=pussy]))
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=breast][title*=hyper_penis])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=breast][title*=big_penis])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=breast][title*=huge_cock])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=" solo"][title*=breast][title*=hyper_penis])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=" solo"][title*=breast][title*=big_penis])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=" solo"][title*=breast][title*=huge_cock])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=" solo"][title*=breast][title*=huge_penis])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=" solo"][title*=breast][title*=" bulge"])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=solo][title*=breast][title~=knot]:not([title*=pussy]))
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=solo][title*=breast][title~=erection])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=futanari])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=" futa_"])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*="1futa"])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=dickgirl])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=gigantic_breasts][title*=gigantic_penis])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im###subnavbar a[href$="&s=random"]
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=hyper_balls][title*=hyper_penis])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=multi_breasts][title*=multi_penis])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=solo][title*=breast][title*=penis]:not([title*=pussy]))
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=breast][title*=hyper_penis])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=breast][title*=big_penis])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=breast][title*=huge_cock])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=" solo"][title*=breast][title*=hyper_penis])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=" solo"][title*=breast][title*=big_penis])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=" solo"][title*=breast][title*=huge_cock])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=" solo"][title*=breast][title*=huge_penis])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=" solo"][title*=breast][title*=" bulge"])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=solo][title*=breast][title~=knot]:not([title*=pussy]))
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net#?#.thumb:has(img[title*=intersex][title*=solo][title*=breast][title~=erection])
 
 ! ——— Paheal Rule 34 ——— 🔴
 rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=futa])
@@ -201,17 +202,17 @@ e621.net,donmai.us,allthefallen.moe##article[data-tags*=" solo"][data-tags*=mult
 e621.net##article[data-tags*=intersex]
 
 ! ——— Twitter ———
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/futanari/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Futas?[.?! ]/)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/[# ]futas?[.?! ]/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/dickgirl/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(Futabu)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(ふたなり)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(フタナリ)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Футанари/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(후타나리)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(扶他那裡)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(สาวดุ้น)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/futanari/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Futas?[.?! ]/)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/[# ]futas?[.?! ]/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/dickgirl/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(Futabu)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(ふたなり)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(フタナリ)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Футанари/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(후타나리)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(扶他那裡)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(สาวดุ้น)
 
 ! ——— Steam Store ———
 store.steampowered.com##a[data-ds-itemkey][href*=Futanari]
@@ -246,10 +247,11 @@ bobsvagene.club#?#.native_plug_container > p:has-text(/Futanari/i)
 pcgamingwiki.com##table[class*=Futanari i]
 pcgamingwiki.com##a[href*=Futanari i]
 pcgamingwiki.com##a[href*="/Futa_" i]
-pcgamingwiki.com##a[href*="=Futa_" i]
+pcgamingwiki.com##a[href*=Futa_ i]
 pcgamingwiki.com##a[href*=Futadom i]
 pcgamingwiki.com##a[href$=_Futa i]
 pcgamingwiki.com##a[href*="_Futa&" i]
+pcgamingwiki.com##a[href*=Futap i]
 
 ! ——— Game Jolt ———
 gamejolt.com#?#.game-grid-item:has-text(/Futanari/i)
@@ -266,17 +268,17 @@ deviantart.com##a[data-hook][href*="/art/"][href*="/futa-" i]
 deviantart.com##a[data-hook][href*="/art/"][href*="/arashiv/"]
 
 ! ——— Nitter ———
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/futanari/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Futas?[.?! ]/)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/[# ]futas?[.?! ]/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/dickgirl/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Futabu)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(ふたなり)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(フタナリ)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Футанари/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(후타나리)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(扶他那裡)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(สาวดุ้น)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/futanari/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Futas?[.?! ]/)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/[# ]futas?[.?! ]/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/dickgirl/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Futabu)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(ふたなり)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(フタナリ)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Футанари/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(후타나리)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(扶他那裡)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(สาวดุ้น)
 
 ! ——— Other sites ———
 ||hentai-futanari-xxx.com^$document

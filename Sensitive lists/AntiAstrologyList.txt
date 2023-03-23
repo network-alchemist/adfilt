@@ -1,6 +1,6 @@
 [Adblock Plus 3.13]
 ! Title: 🛤️ Anti-Astrology List
-! Version: 28November2022v1-Beta
+! Version: 13March2023v1-Beta
 ! Expires: 4 days
 ! Description: The alignment of the stars predict that you will use this list, in order to stop listening so much to such completely unfounded predictions anymore, and to get your eyes off the starry skies and onto your life that should be planted firmly on the ground.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -36,30 +36,30 @@ msn.com#?#li:has(a[href*="zodiac"])
 msn.com#?#.lifestyle div[data-aop=hero]:has(a[href*=zodiac])
 msn.com#?#.lifestyle div[data-aop=hero]:has(a[href*=astrology])
 play.google.com#?#.no-rationale.card:has(a[href*=apps]):has([href*=horoscope])
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/zodiac/i):not(:has-text(/killer/i))
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/capricorn/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/ virgo /i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/astrology/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/gemini/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/saggitarius/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(Pisces)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(Aries)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(Tauro )
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/Libra[ .,;!?]/)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/rising sign/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/retrograde/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/zodiac/i):not(:has-text(/killer/i))
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/capricorn/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/ virgo /i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/astrology/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/gemini/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/saggitarius/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Pisces)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Aries)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(Tauro )
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/Libra[ .,;!?]/)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/rising sign/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/retrograde/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/zodiac/i):not(:has-text(/killer/i))
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/capricorn/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/ virgo /i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/astrology/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/gemini/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/saggitarius/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(Pisces)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(Aries)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(Tauro )
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/Libra[ .,;!?]/)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/rising sign/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/retrograde/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/zodiac/i):not(:has-text(/killer/i))
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/capricorn/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/ virgo /i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/astrology/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/gemini/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/saggitarius/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Pisces)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Aries)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(Tauro )
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/Libra[ .,;!?]/)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/rising sign/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/retrograde/i)
 vice.com#?#.latest-feed__item:has-text(/Horoscop/i)
 vice.com#?#.latest-feed__item:has-text(/Zodiac/i):not(:has-text(/killer/i))
 vice.com#?#.latest-feed__item:has(a[href*=astrology])
@@ -226,6 +226,12 @@ custom-cursor.com#?#.mb20:has-text(Zodiac)
 ##.astrology-widget-top-section:not(html, body)
 ! https://www.telgraf.net/haber/erasmus-ogrenim-ve-staj-hareketliligi-icin-geri-sayim-basladi-haberi-106497.html
 ##.astrology-content:not(html, body)
+! 24sedam.rs (16/01/2023)
+##.widget-horoscope:not(html, body)
+! republika.rs (16/01/2023)
+##.widget-horoscope-slider:not(html, body)
+! tamilmurasu.com.sg (12/03/2023)
+##.block-horoscope-block:not(html, body)
 
 ! Albania
 ! https://www.kosovarja-ks.com/sa-shume-i-ka-rritur-te-pasmet-kida/
@@ -417,10 +423,15 @@ sveip.net#?#li:has(> a[href$="/horoskop/"])
 ! Peru
 libero.pe#?#.col-thirdpart-md:has-text(Horóscopo)
 
+! Russia
+thegirl.ru##._astro
+thegirl.ru##a[href$="/astro/"]
+
 ! Serbia
 nezavisne.com##a[href$=_horoskop]
 wannabemagazine.com#?#article:has(a[title^=Astrologi])
 alo.rs##a[href^="/astro/"]
+24sedam.rs##a[href*="/astro/"]
 
 ! South Africa
 ilanganews.co.za##a[href="/izinkanyezi/"]
@@ -510,6 +521,11 @@ haberantalya.com#?#.col-md-12:has(> .GunlukBurcRenk)
 ! https://github.com/DandelionSprout/adfilt/issues/536 (AdGuard and uBlock Origin only)
 posta.com.tr#?#.card-type--0:style(display: flex)
 posta.com.tr#?#.card-type--0 > .card:style(flex: 1)
+! https://github.com/DandelionSprout/adfilt/issues/727
+yesilirmakgazetesi.com.tr##.cerceve-anket[style^=background-color]
+yesilirmakgazetesi.com.tr#?#.anket:has(+ .cerceve-anket[style^=background-color])
+! https://github.com/DandelionSprout/adfilt/issues/730
+egemengazetesi.com,kemergozcu.com,nigdehaber.com.tr#?#.modules:has(> .burclar)
 ! Other sites
 kanal15.com.tr#?#.siteyiOrtala:has(.anaBurc)
 sivashaber.com#?#.widget:has(.widburc)
@@ -580,6 +596,8 @@ univision.com#?#.widget[data-widget-type=HeroWidget]:has-text(Horóscopos)
 elnuevoherald.com#?#a:has-text(Walter Mercado)
 elnuevoherald.com##a[title="Walter Mercado"]
 nypost.com##.widget_nypost_postrology_widget
+dazeddigital.com#?#.swiper-slide:has-text(/Horoscope/i)
+dazeddigital.com#?#.listing-item:has-text(/Horoscope/i)
 
 ! Videogaming
 nookipedia.com#?#tbody > tr:has(> td > [href="/wiki/Star_sign"])
@@ -591,3 +609,5 @@ sims.fandom.com#?#.metainfobox tr:has-text(Zodiac sign)
 sims.fandom.com#?#.wikitable td:has(a[href$="/Zodiac_sign"])
 sims.fandom.com#?#.tabbertab > center:has-text(Sign / personality mismatch)
 sims.fandom.com#?#.tabbertab > center:has-text(Genetic personality)
+sims.fandom.com#?#.wikitable + center:has-text(Sign / personality mismatch)
+sims.fandom.com#?#.wikitable + center + center:has-text(Genetic personality)

@@ -1,6 +1,6 @@
 [Adblock Plus 3.13]
 ! Title: 🤗 Anti-'Abuse porn' list
-! Version: 26December2022v1
+! Version: 19March2023v3
 ! Description: So, say that you're looking for imagery of consensual and pleasurable sex on various semi-major artsites (e.g. Pixiv, R34X³, E621, Inkbunny, etc.), and then you stumble across a crying Daniel Tiger with a corset being strapped to a bench in a diaper? Now such scenarios won't occur nearly as often as they did before!
 ! Note that this list presumes you're smart enough to keep "R-18G" turned off on Pixiv. If you turn on that setting, you're pretty much on your own.
 ! Special shoutout to and condolences to Duffy, whose story from 2010 of being kidnapped and raped for 4 weeks was essentially an abuse-porn comic played out IRL. My deepest sympathies are with her.
@@ -155,6 +155,7 @@ pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=" pee" i][alt*=acc
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=" piddle" i])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*="cock sauce" i])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=pee i][alt*=tea i])
+pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=" pee" i][alt*=wet i])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=カービィパンティ])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=かーびぃぱんてぃ])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=water i][alt*=grave i])
@@ -245,7 +246,6 @@ pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*="UW "][alt*=peril 
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*="Water Closet" i])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*="odor seduct" i])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=" Humiliation " i])
-pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=bitchsuit i])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=おむつ])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=便器])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=有刺鉄線])
@@ -269,6 +269,9 @@ pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=浣腸])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=foodplay i])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=gross i])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt~=gassy i])
+pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=forniphilia i])
+pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*="The Light In The Dark: EP" i])
+pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*="The Light In The Dark - EP" i])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="61165791"])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="7968"])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="8361"])
@@ -313,7 +316,6 @@ pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="10920693"
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="11781262"])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="12744235"])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="13174278"])
-pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="14696868"])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="14696868"])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="14735788"])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="15975040"])
@@ -366,6 +368,7 @@ pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="73179402"
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="67659775"])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="46379535"])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="32845157"])
+pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"][data-gtm-user-id="87085713"])
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"]):has-text( bondage)
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"]):has-text(/Asphyx/i)
 pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"]):has-text(/Cum ?Dumpster/i)
@@ -488,7 +491,6 @@ pixiv.net#?#.works-item:has(img[alt*=有刺鉄線])
 pixiv.net#?#.works-item:has(img[alt*="chastity belt" i])
 pixiv.net#?#.works-item:has(img[alt$=" in peril" i])
 pixiv.net#?#.works-item:has(img[alt*=water i][alt*=chain i])
-pixiv.net#?#.works-item:has(img[alt*=Tashkent i])
 pixiv.net#?#.works-item:has(img[alt*=タシュケント])
 pixiv.net#?#.works-item:has(img[alt*=" Pampered" i])
 pixiv.net#?#.works-item:has(img[alt*=desmember i])
@@ -525,6 +527,7 @@ pixiv.net#?#.works-item:has(img[alt*=" pee" i][alt*=accident i])
 pixiv.net#?#.works-item:has(img[alt*="cock sauce" i])
 pixiv.net#?#.works-item:has(img[alt*=" piddle" i])
 pixiv.net#?#.works-item:has(img[alt*=pee i][alt*=tea i])
+pixiv.net#?#.works-item:has(img[alt*=" pee" i][alt*=wet i])
 pixiv.net#?#.works-item:has(img[alt*=カービィパンティ])
 pixiv.net#?#.works-item:has(img[alt*=かーびぃぱんてぃ])
 pixiv.net#?#.works-item:has(img[alt*=water i][alt*=grave i])
@@ -611,150 +614,159 @@ pixiv.net#?#.works-item:has(img[alt*=浣腸])
 pixiv.net#?#.works-item:has(img[alt*=foodplay i])
 pixiv.net#?#.works-item:has(img[alt*=gross i])
 pixiv.net#?#.works-item:has(img[alt~=gassy i])
+pixiv.net#?#.works-item:has(img[alt*=forniphilia i])
+pixiv.net#?#.works-item:has(img[alt*="The Light In The Dark: EP" i])
+pixiv.net#?#.works-item:has(img[alt*="The Light In The Dark - EP" i])
 !#endif
 
 ! Rule34.xxx
 ! Paheal is added to extremely crucial entries only, as its tagging system is atrocious garbage and I don't visit it much anymore because of that. The same treatment is given to Rule34Hentai.net.
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=diaper i])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=torture i]:not([title*=pleasure]):not([title*=orgasm_torture]))
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=peskybatfish])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=amputati i])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=watersports i])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=abuse i])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=vomit i])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=gangrape i])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=smegma i])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=Zapor i])
-!!!rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=gimp_suit])
-!!!rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=gimpsuit])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=scat])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=asphyxiation])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=drowning])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=fart_])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=blood]:not([title*=nose_bleed]):not([title*=nosebleed]))
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=force_feeding][title*=gag])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=feeding][title*=forced])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=fart])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=spanking]:not([title*=bodysuit]))
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=syringe][title*=body_modification])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=syringe][title*=injection])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=injection][title*=_breasts])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=chastity][title*=edging])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=orgasm_denial])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=inflatable_gag])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=predicament_bondage])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=nipple_clamps])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=peeing_self])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=drinking_pee])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=scared])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=cigarette_butt])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=chastity_device])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=chastity_cage])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=kidnapped]:not([title*=vibrator]))
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=drugs][title*=brainwash])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=writing_on_skin])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=writing_on_face])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=writing_on_body])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=body_writing])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=debreast])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=dirty_underwear])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=y_feet])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=hanged])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=death][title*=stabbed])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=death][title*=roasting_spit])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=death][title*=electrocut])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=execution])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=broken_rape_victim])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=brainplay])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=neck_snap])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=guro])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=" behead"])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=overdose])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=toe_cheese])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=enema])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=null_bulge])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=bee_sting])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=anal_hook])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=urophagia])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=coronaplay])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=lock_bulge])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=anal_vore])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=bruised])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=whipping])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=whip_mark])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=branding_iron])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=shock_collar][title*=slave])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=gore])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=nipple_tag])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=slave_auction])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=rape_rack])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=cooked_alive])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=cooking_vore])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=nipple_ring_pull])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=wounds])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=scratches])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=shit])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=shitting])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=imminent_death])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=grilled])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=thrown_away])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=guillotine])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=bruise])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=castration])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=bruises])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=y_soles])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=dirty_sole])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=public_use][title*=urinal])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=public_use][title*=toilet])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=egg_implantation]:not([title~=anthro]))
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=eggnant]:not([title~=anthro]))
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=egg_laying][title*="human "])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=egg_laying][title*=mammal])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=egg_laying][title*=zoophil])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=egg_laying][title*=insectophil])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=nazi])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=schutzstaffel])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=swastika])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=gangbang][title~=rape])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=thenewvice])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=vore][title*=digest])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=devouring])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=human_toilet])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=human_urinal])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=piss_drinking])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=pissing_in_mouth])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=pissing_in_ass])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=piss_in_mouth])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=nipple_weights])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=gg63xxx])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=spank_mark])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=soiling])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=maggot])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=maggots])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=fatal_vore])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=toilet_slave])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=strangling])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=datsuma69])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=bleeding])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=implied_disposal])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*="_scat "])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=ryona])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=beating])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=cruelty])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=slave][title*=" racis"])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=dismemberment])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=racism])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=nipple_stretch])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=urinal][title~=dirty])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=the_n_word])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=faceslap])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=notashiny])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=imminent_fart])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=stink_line])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=ass_sniffing])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=smelly_a][title*=musk])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=drinking_urine])
-rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=peeing_in_mouth])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=diaper i])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=torture i]:not([title*=pleasure]):not([title*=orgasm_torture]))
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=peskybatfish])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=amputati i])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=watersports i])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=abuse i])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=vomit i])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=gangrape i])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=smegma i])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:has(img[title*=Zapor i])
+!!!rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=gimp_suit])
+!!!rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=gimpsuit])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=scat])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=asphyxiation])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=drowning])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=fart_])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=blood]:not([title*=nose_bleed]):not([title*=nosebleed]))
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=force_feeding][title*=gag])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=feeding][title*=forced])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=fart])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=spanking]:not([title*=bodysuit]))
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=syringe][title*=body_modification])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=syringe][title*=injection])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=injection][title*=_breasts])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=chastity][title*=edging])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=orgasm_denial])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=inflatable_gag])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=predicament_bondage])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=nipple_clamps])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=peeing_self])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=drinking_pee])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=scared])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=cigarette_butt])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=chastity_device])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=chastity_cage])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=kidnapped]:not([title*=vibrator]))
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=drugs][title*=brainwash])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=writing_on_skin])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=writing_on_face])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=writing_on_body])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=body_writing])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=debreast])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=dirty_underwear])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=y_feet])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=hanged])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=death][title*=stabbed])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=death][title*=roasting_spit])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=death][title*=electrocut])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=execution])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=broken_rape_victim])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=brainplay])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=neck_snap])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=guro])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=" behead"])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=overdose])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=toe_cheese])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=enema])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=null_bulge])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=bee_sting])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=anal_hook])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=urophagia])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=coronaplay])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=lock_bulge])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=anal_vore])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=bruised])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=whipping])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=whip_mark])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=branding_iron])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=shock_collar][title*=slave])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=gore])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=nipple_tag])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=slave_auction])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=rape_rack])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=cooked_alive])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=cooking_vore])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=nipple_ring_pull])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=wounds])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=scratches])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=shit])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=shitting])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=imminent_death])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=grilled])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=thrown_away])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=guillotine])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=bruise])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=castration])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=bruises])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=y_soles])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=dirty_sole])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=public_use][title*=urinal])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=public_use][title*=toilet])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=egg_implantation]:not([title~=anthro]))
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=eggnant]:not([title~=anthro]))
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=egg_laying][title*="human "])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=egg_laying][title*=mammal])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=egg_laying][title*=zoophil])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=egg_laying][title*=insectophil])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=nazi])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=schutzstaffel])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=swastika])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=gangbang][title~=rape])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=thenewvice])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=vore][title*=digest])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=devouring])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=human_toilet])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=human_urinal])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=piss_drinking])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=pissing_in_mouth])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=pissing_in_ass])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=piss_in_mouth])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=nipple_weights])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=gg63xxx])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=spank_mark])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=soiling])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=maggot])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=maggots])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=fatal_vore])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=toilet_slave])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=strangling])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=datsuma69])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=bleeding])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=implied_disposal])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*="_scat "])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=ryona])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=beating])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=cruelty])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=slave][title*=" racis"])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=dismemberment])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=racism])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=nipple_stretch])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=urinal][title~=dirty])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=the_n_word])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=faceslap])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=notashiny])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=imminent_fart])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=stink_line])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=ass_sniffing])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=smelly_a][title*=musk])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=drinking_urine])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=peeing_in_mouth])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=pacifier])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=butt_sniff])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=ballhood])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title~=ball_hood])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=paintmaster3001])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,kusubooru.com,tentaclerape.net,wh40kart.im#?#.thumb:has(img[title*=dirty_sock])
 
 ! Konachan
 konachan.com,yande.re,hypnohub.net,lolibooru.moe#?##post-list-posts > li:has(img[title*=diaper])
@@ -1426,6 +1438,102 @@ deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][hr
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bottle-baby i])
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=creamysir i])
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/vauxhall44/"])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/hassanabbdullah/"])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/princeoflilith/"])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=baby-cloth i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=smell i][href*=toe i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/rammzblood/"])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/excelso36/"])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/charlesda9/"])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/nascentdream/"])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=baby-boy i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/sissydee/"])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=sissykin i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=dirty-socks i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/curranjustice/"])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bellypop i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=nursery i]:not([href*=rhym i]))
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=flams2002 i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-diper- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-dipers- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=m1ssmmd i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=dirty-foot i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=deutsch i][href*=-hure- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=deutsch i][href*=dhimmi i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=aishamahmud i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=friesennerz i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=adultbaby i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=thunderdasher i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-pamps- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-pullups- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bondage i][href*=-ab- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bondage i][href*=-bab- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bondage i][href*=baby i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bondage i][href*=crib i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bondage i][href*=regress i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bondage i][href*=smell i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=changies i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=changing i][href*=bab i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=hofbondage i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=potty i][href*=time i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=snuggies i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=spankees i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=tinkeling i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=waiting i][href*=-a-change- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=yodaaboy i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-poots- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-blorts- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-prrt i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-plops- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bubble i][href*=gut i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=rot i][href*=toot i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=stain i][href*=panties i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=mmp65 i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-behead i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/behead" i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=deadboynextdoor i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-out-of-air- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/Cushy-" i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/smelly-" i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-changing-time- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-gets-a-change- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-nap-time- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-padding- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-pamp- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-regression- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-soiled i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-spankin- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-the-paddle- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-tots- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-zorbs- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bab i][href*=onesie i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=baby i][href*=chair i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=big-baby i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=big-mess- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=bman44 i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=canadiandaddy i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=change i][href*=bab i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=changing-line i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=changing-room i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=cuddlelamb i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=dumb-baby i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=feeding-time i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=play i][href*=baby i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=playplace i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=potty-train i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=pottying i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/lightening" i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/messy-" i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-messy- i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=babytime i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=change-myself i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=marcosart i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=poof i][href*=pant i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=what-s-that-smell i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=whats-that-smell i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=tiny i][href*=squish i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=wyliecollection i])
+deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-insoles- i])
 deviantart.com##a[data-hook][href*="/art/"][href*=-pee- i]
 deviantart.com##a[data-hook][href*="/art/"][href*=-peril i]
 deviantart.com##a[data-hook][href*="/art/"][href*=-slave- i]
@@ -1552,8 +1660,6 @@ deviantart.com##a[data-hook][href*="/art/"][href*=rubber i][href*=bane i]
 deviantart.com##a[data-hook][href*="/art/"][href*=buttcrush i]
 deviantart.com##a[data-hook][href*="/art/"][href*=-leg-lock i]
 deviantart.com##a[data-hook][href*="/art/"][href*=-is-fetished- i]
-deviantart.com##a[data-hook][href*="/art/"][href*=-leg-lock i]
-deviantart.com##a[data-hook][href*="/art/"][href*=-is-fetished- i]
 deviantart.com##a[data-hook][href*="/art/"][href*=ab-dl- i]
 deviantart.com##a[data-hook][href*="/art/"][href*="/peculiarchangeling/"]
 deviantart.com##a[data-hook][href*="/art/"][href*=-enema- i]
@@ -1579,6 +1685,102 @@ deviantart.com##a[data-hook][href*="/art/"][href*=babymask i]
 deviantart.com##a[data-hook][href*="/art/"][href*=bottle-baby i]
 deviantart.com##a[data-hook][href*="/art/"][href*=creamysir i]
 deviantart.com##a[data-hook][href*="/art/"][href*="/vauxhall44/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="/hassanabbdullah/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="/princeoflilith/"]
+deviantart.com##a[data-hook][href*="/art/"][href*=baby-cloth i]
+deviantart.com##a[data-hook][href*="/art/"][href*=smell i][href*=toe i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/rammzblood/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="/excelso36/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="/charlesda9/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="/nascentdream/"]
+deviantart.com##a[data-hook][href*="/art/"][href*=baby-boy i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/sissydee/"]
+deviantart.com##a[data-hook][href*="/art/"][href*=sissykin i]
+deviantart.com##a[data-hook][href*="/art/"][href*=dirty-socks i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/curranjustice/"]
+deviantart.com##a[data-hook][href*="/art/"][href*=bellypop i]
+deviantart.com##a[data-hook][href*="/art/"][href*=nursery i]:not([href*=rhym i])
+deviantart.com##a[data-hook][href*="/art/"][href*=flams2002 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-diper- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-dipers- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=m1ssmmd i]
+deviantart.com##a[data-hook][href*="/art/"][href*=dirty-foot i]
+deviantart.com##a[data-hook][href*="/art/"][href*=deutsch i][href*=-hure- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=deutsch i][href*=dhimmi i]
+deviantart.com##a[data-hook][href*="/art/"][href*=aishamahmud i]
+deviantart.com##a[data-hook][href*="/art/"][href*=friesennerz i]
+deviantart.com##a[data-hook][href*="/art/"][href*=adultbaby i]
+deviantart.com##a[data-hook][href*="/art/"][href*=thunderdasher i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-pamps- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-pullups- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bondage i][href*=-ab- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bondage i][href*=-bab- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bondage i][href*=baby i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bondage i][href*=crib i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bondage i][href*=regress i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bondage i][href*=smell i]
+deviantart.com##a[data-hook][href*="/art/"][href*=changies i]
+deviantart.com##a[data-hook][href*="/art/"][href*=changing i][href*=bab i]
+deviantart.com##a[data-hook][href*="/art/"][href*=hofbondage i]
+deviantart.com##a[data-hook][href*="/art/"][href*=potty i][href*=time i]
+deviantart.com##a[data-hook][href*="/art/"][href*=snuggies i]
+deviantart.com##a[data-hook][href*="/art/"][href*=spankees i]
+deviantart.com##a[data-hook][href*="/art/"][href*=tinkeling i]
+deviantart.com##a[data-hook][href*="/art/"][href*=waiting i][href*=-a-change- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=yodaaboy i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-poots- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-blorts- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-prrt i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-plops- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bubble i][href*=gut i]
+deviantart.com##a[data-hook][href*="/art/"][href*=rot i][href*=toot i]
+deviantart.com##a[data-hook][href*="/art/"][href*=stain i][href*=panties i]
+deviantart.com##a[data-hook][href*="/art/"][href*=mmp65 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-behead i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/behead" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=deadboynextdoor i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-out-of-air- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/Cushy-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/smelly-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-changing-time- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-gets-a-change- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-nap-time- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-padding- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-pamp- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-regression- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-soiled i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-spankin- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-the-paddle- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-tots- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-zorbs- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bab i][href*=onesie i]
+deviantart.com##a[data-hook][href*="/art/"][href*=baby i][href*=chair i]
+deviantart.com##a[data-hook][href*="/art/"][href*=big-baby i]
+deviantart.com##a[data-hook][href*="/art/"][href*=big-mess- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bman44 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=canadiandaddy i]
+deviantart.com##a[data-hook][href*="/art/"][href*=change i][href*=bab i]
+deviantart.com##a[data-hook][href*="/art/"][href*=changing-line i]
+deviantart.com##a[data-hook][href*="/art/"][href*=changing-room i]
+deviantart.com##a[data-hook][href*="/art/"][href*=cuddlelamb i]
+deviantart.com##a[data-hook][href*="/art/"][href*=dumb-baby i]
+deviantart.com##a[data-hook][href*="/art/"][href*=feeding-time i]
+deviantart.com##a[data-hook][href*="/art/"][href*=play i][href*=baby i]
+deviantart.com##a[data-hook][href*="/art/"][href*=playplace i]
+deviantart.com##a[data-hook][href*="/art/"][href*=potty-train i]
+deviantart.com##a[data-hook][href*="/art/"][href*=pottying i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/lightening" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/messy-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-messy- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=babytime i]
+deviantart.com##a[data-hook][href*="/art/"][href*=change-myself i]
+deviantart.com##a[data-hook][href*="/art/"][href*=marcosart i]
+deviantart.com##a[data-hook][href*="/art/"][href*=poof i][href*=pant i]
+deviantart.com##a[data-hook][href*="/art/"][href*=what-s-that-smell i]
+deviantart.com##a[data-hook][href*="/art/"][href*=whats-that-smell i]
+deviantart.com##a[data-hook][href*="/art/"][href*=tiny i][href*=squish i]
+deviantart.com##a[data-hook][href*="/art/"][href*=wyliecollection i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-insoles- i]
 
 ! Lumen Database (experimental)
 lumendatabase.org#?#.infringing_url:has-text(/slave|-piss|-abuse-|fart|facesit/i)
@@ -1612,14 +1814,14 @@ kisshentai.net#?#a[href="/Genre/Scat"] + br
 tumblr.com#?#.post:has-text(diaper)
 xxxonlinegames.com#?#.rec-game-container:has-text(Abuse)
 ||reddit.com/r/scatporn^$document
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/[ #]gassy/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/[ #]diaper/i):has-text(/art|day |content| pic /i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/dubai/i):has-text(/potty/i)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):has-text(/thetoejames/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/[ #]gassy/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/[ #]diaper/i):has-text(/art|day |content| pic /i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/dubai/i):has-text(/potty/i)
-nitter.net,nitter.lacontrevoie.fr#?#.timeline-item:has-text(/thetoejames/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/[ #]gassy/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/[ #]diaper/i):has-text(/art|day |content| pic /i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/dubai/i):has-text(/potty/i)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid=cellInnerDiv]:has-text(/thetoejames/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/[ #]gassy/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/[ #]diaper/i):has-text(/art|day |content| pic /i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/dubai/i):has-text(/potty/i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/thetoejames/i)
 tiktok.com#?#div[class*=-DivItemContainer]:has-text(/dubai/i):has-text(/potty/i)
 tiktok.com#?#div[class*=-DivItemContainer]:has-text(/porta/i):has-text(/potty/i)
 furaffinity.net#?#.t-image:has-text(/Peeing/i)
@@ -1630,10 +1832,10 @@ furaffinity.net#?#.t-image:has-text(e-raised-to-the-pi-i)
 ||scat-porn-$document
 ||scatporn-$document
 ||free-scat-porn.$document
-||scat.$document
-||scat-porn-$document
-||scatporn-$document
-||free-scat-porn.$document
+||scat.
+||scat-porn-
+||scatporn-
+||free-scat-porn.
 ||scatbooru.co.uk^
 ||scat-extreme.org^
 ||scat-fetish.com^

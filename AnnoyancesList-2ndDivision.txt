@@ -1,5 +1,5 @@
 ! Title: 👨‍👨‍👧‍👦 Dandelion Sprout's Annoyances List 2nd Division Bachelors
-! Version: 13December2022v1-Alpha-Compilation
+! Version: 10March2023v1-Alpha-Compilation
 ! Expires: 3 days
 ! Description: This compilation include lists that are maintained as properly and proudly as those in the main Annoyances List, but which have unresolved matters about overblocking, unusual topics, or potential regional legal issues (primarily in the Middle East), that would've caused the AdGuard Filters Registry team to raise eyebrows until resolvements have been agreed on.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -18,7 +18,7 @@ discord.com#?#span[id^=message-username-] > span[class^=username-]:style(font-we
 ! Marks prescriptions on Norway's official prescription info site as all-red if they're expired
 !!!tjenester.helsenorge.no#?#.legemiddel__block:has-text(/Utekspedert|Utløpt|seponert/) .legemiddel__container__block:style(background-color: #ea7b7b !important)
 !!!tjenester.helsenorge.no#?#.legemiddel__block:has-text(/Utekspedert|Utløpt|seponert/) .legemiddel__delivery:style(background-color: #ea7b7b !important)
-tjenester.helsenorge.no##div[class^=styles_panel-wrapper__]:-abp-has(div[class^=legemiddel_]:has-text(/Utekspedert|Utløpt|seponert/)) > div[class^=styles_panel_]:style(background-color: #ea7b7b !important)
+tjenester.helsenorge.no#?#div[class^=styles_panel-wrapper__]:has(div[class^=legemiddel_]:has-text(/Utekspedert|Utløpt|seponert/)) > div[class^=styles_panel_]:style(background-color: #ea7b7b !important)
 
 !#if !env_mobile
 ! 3-year old item trade DMs are kinda scary, especially on 2560px tall monitors where they're normally shown for many years
@@ -32,3 +32,10 @@ finn.no##div[msg-test]:style(max-height: 700px !important)
 
 ! Bypassings of sites' GDPR blocks
 history.com##+js(ra, block-on-gdpr-applicable)
+
+! Unsure which of my other lists to put these in, but is otherwise uncontroversial to block
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:has-text(/#[sѕ]htwt /i)
+nitter.net,nitter.lacontrevoie.fr,nitter.1d4.us#?#.timeline-item:has-text(/#[sѕ]htwt /i)
+
+! Has significant local legitimate use and needs testing before having a chance to get into Anti-Malware List
+*c.om^|$document,domain=~gmc.om|~gmmc.om

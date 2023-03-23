@@ -1,6 +1,6 @@
 # Title: 🏔️ Dandelion Sprouts nordiske filtre for ryddigere nettsider (for Privoxy)
 # Translated title: Dandelion Sprout's Nordic filters for tidier websites (for Privoxy)
-# Version: 23December2022v1-Alpha
+# Version: 22March2023v1-Deprecated
 # Lisens / Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 # Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 # 🇳🇴: Denne listen dekker nettsteder for Norge, Danmark, Island, Færøyene, Grønland, Schleswig-Holsteins danske minoritet, og samebefolkningen. For mere informasjon, detaljer, hjelpemidler, og andre lister jeg har laget, gå til https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#norsk
@@ -65,6 +65,9 @@
 # vesterbroliv.dk, vafo.dk, amagerliv.dk
 {+block{https://github.com/uBlockOrigin/uAssets/issues/13224}}
 # rett24.no (13/06/2022)
+# metalsupply.no, licitationen.dk (08/03/2023)
+{+block{https://www.licitationen.dk/article/view/900259/efter_entreprenors_konkurs_river_106_ufaerdige_huse_ned_i_hojetaastrup (08/03/2023)}}
+# maskinregisteret.no (08/03/2023)
 # — — — — — — —
 # 🇳🇴: Brede eller heldomenebaserte blokkeringsoppføringer
 {+block{🇬🇧: Broad or whole-domain blocking rules}}
@@ -100,7 +103,7 @@
 {-block}
 .annonser.gess.no
 {+block}
-.auglysingar.*.is$frame
+.auglysingar.*.is
 .banner.*.no
 .helios.*.no
 .vefbordar.*.is
@@ -118,7 +121,6 @@
 .betterbanners.org
 .bilborsen.webannonse.no
 .boligkanalen-maestro-new.azurewebsites.net
-.brandstudio.inventory.schibsted.io$frame
 .cluster.chart.dk
 .delivered-by-madington.com
 .dotbanner.dk
@@ -126,7 +128,7 @@
 .easy-ads.dk
 .heartbeat.airserve.net
 .images.passendo.com
-.isweb.no$frame
+.isweb.no
 .kunde.apt.no
 .kynning.olis.is
 .matriell.dm-storage.no
@@ -139,7 +141,7 @@
 .tankeogteknikk.no
 .tracking-genesisaffiliates.com
 .vefbordi.is
-.vevlysingar.fo$frame
+.vevlysingar.fo
 .videotool.fbg.dk
 .farm-dk.plista.com
 .svindel.info
@@ -238,7 +240,7 @@
 {+block}
 .austurfrett.is/images/*augl.jpg
 {+block}
-.banner.landbrugsavisen.dk/reklame.aspx$frame
+.banner.landbrugsavisen.dk/reklame.aspx
 {+block}
 .biip.no/wp-content/uploads/*320x250.jpg
 {+block}
@@ -252,7 +254,7 @@
 {+block}
 
 {+block}
-.deals.innocode.no/api$3p,frame
+.deals.innocode.no/api
 {+block}
 .dust2.dk/img/banners/*
 {+block}
@@ -282,7 +284,7 @@
 {+block}
 .magasinetreiselyst.no/wp-content/*_annonse*promo
 {+block}
-.media.sonymusic.no/marketing/*.html$frame
+.media.sonymusic.no/marketing/*.html
 {+block}
 .melkoghonning.no/wp-content/uploads/*_980x300px.jpg
 {+block}
@@ -296,7 +298,7 @@
 {-block}
 .n247.no/salg/karusell_17
 {+block}
-.nordlysid.fo/lysing$frame
+.nordlysid.fo/lysing
 {+block}
 .norskenettsider.no/images/ageras-banner.jpg
 {+block}
@@ -386,7 +388,7 @@
 {+block}
 .xn--bredbnd-ixa.dk/wp-content/*/velkommen_banner
 {+block}
-.youtube.com/embed/*&origin=https%3A%2F%2Fwww.feltet.dk&widgetid=1$frame
+.youtube.com/embed/*&origin=https%3A%2F%2Fwww.feltet.dk&widgetid=1
 {+block}
 .i0.wp.com/bobilportalen.no/*/180x500.png
 {-block}
@@ -424,7 +426,7 @@
 {+block}
 .frilansinfo.no/wp-content/themes/frilansinfo-no/img/*-annonse.jpg
 {+block}
-.thaiguiden.no/tg-980.html$frame
+.thaiguiden.no/tg-980.html
 {+block}
 .thainytt.no/files/160_*
 {+block}
@@ -454,7 +456,7 @@
 {+block}
 .doktor.frettabladid.is/wp-content/uploads/*/Reidist*.jpg
 {+block}
-.forum.flyprat.no/images/r/Header$frame
+.forum.flyprat.no/images/r/Header
 {+block}
 .fcbarcelona.dk/images/bcn_*.gif
 {+block}
@@ -606,6 +608,8 @@
 {+block}
 .tv2.no/prod/sponsor
 .rett24.no*bannerizor.js
+{+block}
+
 # — — — — — — —
 {+block{🇬🇧: Fileserver or site-specific blocking rules with special conditions}}
 {+block}
@@ -628,14 +632,10 @@
 # buildingsupply.no, maskinregisteret.no, metalsupply.no, plastforum.no
 {+block}
 .f.nordiskemedier.dk/*.gif
-{+block{metalsupply.no}}
-{+block}
-.f.nordiskemedier.dk/2*.png
-{-block}
-.f.nordiskemedier.dk/2*_*.png
 {+block{building-supply.dk}}
 {+block}
 .f.nordiskemedier.dk/banner
+# metalsupply.no, licitationen.dk
 # viivilla.no (10/11/2020)
 {+block}
 .bcm.interactives.dk/script
@@ -671,15 +671,15 @@
 {+block}
 .fcbarcelona.dk/*/images/footerbg.jpg
 {+block}
-.730.no/banner/*/sonymusic/$frame
+.730.no/banner/*/sonymusic/
 {+block}
 .danishfamilysearch.dk/images/xp2
 {+block}
-.gaysir.no/rek/bb_inline$frame
+.gaysir.no/rek/bb_inline
 {+block}
 .gulindex.no/-/js/spring.js
 {+block}
-.mmm.dk/safeframe$frame
+.mmm.dk/safeframe
 {+block}
 .static.vg.no/css/admark_top.gif
 {+block}
@@ -777,6 +777,8 @@
 # farmatid.no (16/11/2021)
 {+block{https://radioh.no/norsk-opphenting-mot-nederland-sikret-vm-kvartfinale-storm-i-kastene/ (14/12/2021)}}
 # nordlys.no, an.no (19/06/2022)
+# nidaros.no (22/02/2023)
+# jyllands-posten.dk (22/03/2023)
 # 🇳🇴/🇩🇰: ——— Sporingsfiler ———
 # 🇳🇴🏞: ——— Sporingsfilar ———
 # ❄: ——— Guorrafiilaid ———
@@ -877,6 +879,7 @@
 # Makes most links show up correctly (Fixed in AdGuard Base)
 {+block{https://github.com/uBlockOrigin/uAssets/issues/11546 (Not yet forwarded to EasyList)}}
 {+block{https://github.com/uBlockOrigin/uAssets/issues/13907}}
+{+block{http://sosialurin.fo/news-detail/steypafinala-vilhelm-og-rogvi-a-ruv1-fra-klokkan-1630}}
 # ★★★ Caused by «I Don't Care About Cookies» (Its maintainer couldn't reproduce it) ★★★
 # Fullpage uncloseable overlay when browsing around on Telenor Norway's TV section
 # ★★★ Caused by «AdGuard Annoyances Filter» and «AdGuard Tracking Protection Filter» ★★★
@@ -916,7 +919,7 @@
 # 🇳🇴🏞: ——— Norsk Tipping, inkl. tvilsamt motiverte lottoreklamar (Ein håndfull ikkje-påtrengande tippereklamar er i orden for meg) ———
 {+block{🇬🇧: ——— Norsk Tipping, incl. poorly motivated lotto ads (A few non-pushy football pool ads are fine in my book) ———}}
 {+block}
-.tipster.no/embed$frame
+.tipster.no/embed
 {+block{https://www.nettavisen.no/}}
 {+block{https://www.ba.no/s/5-8-1221171}}
 {+block}
@@ -965,6 +968,7 @@
 # 🇳🇴: Oppføringer for ytre-høyre-nettsteder. Støtte for disse nettstedene er begrenset, og de fleste nye oppføringer som blir foreslått for dem vil bli ordrett godkjent.
 # 🇮🇸: Skráningar fyrir ytrihægri-vefsiður. Stuðningur við þessar síður er takmarkaður, og flestar nýjar skráningar sem mælt er með fyrir þær verða innifalin orðrétt.
 {+block{🇬🇧: Entries for far-right websites. Support for these sites is limited, and most new entries that are suggested for them will be accepted verbatim.}}
+{+block{https://github.com/uBlockOrigin/uAssets/issues/16138}}
 {+block{https://github.com/ryanbr/fanboy-adblock/issues/1405}}
 {-block}
 .politainment.no*/cookieconsent.min.js
@@ -1026,7 +1030,6 @@
 .52.216.146.90
 .92.42.104.146
 .appleid.*.no
-.bizcashtrend.com
 .coop.no.
 .danskebank.no.
 .djurs.com-*.
@@ -1034,7 +1037,6 @@
 .elkjop.no.
 .finn.no.
 .flysas-no.
-.fullbagcash.com
 .hervelegeroutletusa.com
 .itunesconnect-*.no
 .jimmychoostore.top
@@ -1045,7 +1047,6 @@
 .nordea.no.
 .nordnet.no.
 .norwegian.com.
-.nymelding.com
 .optimizersppc.com
 .paypal.*.no
 .pensjonistferie.no
@@ -1059,15 +1060,12 @@
 .shell.no.
 .skatteetaten.no.
 .sparebank1.no.
-.toptechmania.com
 .trackvoluum.com
 .tromselementbygg.no
 .tusenfryd-com.
 .ultimate-tech-products.myshopify.com
 .vg.no.
 .vipps-sikkerhet.
-.noipermontanera.it
-.lydmagasinet.com
 .norskposten.com
 .oslo-tannlegene.no
 .y6.no
@@ -1093,8 +1091,6 @@
 {+block{https://www.nrk.no/norge/1.14511067}}
 .kongeparken.com-*
 .kiwi.com-*
-{+block{https://www.aftenposten.no/osloby/i/mRK8xq/Fatt-tilbud-om-gratis-kollektivbillett-Svindel_-melder-Ruter}}
-.earnmoneyglobal.com
 {+block{https://www.datahjelperne.no/verifiser-get-konto-falsk-mail/}}
 .getmail-no.
 {+block{https://www.datahjelperne.no/gratulerer-du-har-vunnet-en-gave-mail-svindel/}}
@@ -1103,8 +1099,6 @@
 .elkjop*.club
 {+block{https://www.datahjelperne.no/sparebank1-kortet-ditt-er-blokkert-mail-phishing/}}
 ./css/*sparebank1.no
-{+block{https://www.faktisk.no/notiser/l5/nei-petter-stordalen-har-ikke-investert-i-bitcoin-program}}
-.phosphox.com
 {+block{https://www.facebook.com/viralspiralen/posts/2494251397311027}}
 .addmoviesnow.com
 {+block{https://www.mm.dk/tjekdet/artikel/faarup-sommerland-advarer-mod-gratis-billetter-det-er-spam-og-fup}}
@@ -1114,10 +1108,6 @@
 .legoland.com-*.
 {+block{https://www.mm.dk/tjekdet/artikel/ogsaa-chili-klaus-maa-staa-model-til-falske-annoncer}}
 .hcliips.com
-{+block{https://www.mm.dk/tjekdet/artikel/michael-laudrup-har-ikke-vaeret-i-go-morgen-danmark-for-at-fortaelle-om-bitcoin-fidus}}
-.vision-hey.club
-{+block{https://www.mm.dk/tjekdet/artikel/deltagere-i-go-morgen-danmark-misbrugt-i-bitcoin-svindelnummer}}
-.top-topic.co
 {+block{https://www.nrk.no/troms/1.14788086}}
 .geometra-bologna.it
 {+block{https://www.nrk.no/nyheter/1.14793929}}
@@ -1131,13 +1121,9 @@
 .ocgadgetss.myshopify.com
 {+block{https://www.mm.dk/tjekdet/artikel/fup-artikel-hun-er-tiltalt-for-millionsvindel-men-nu-pludselig-loesladt}}
 .ekstrabiadet.
-{+block{https://www.mm.dk/tjekdet/artikel/nej-joergen-leth-har-ikke-investeret-500-millioner-kroner-i-bitcoins}}
-.daily-news.tech
 {+block{https://www.tv2.no/nyheter/11516670/}}
 .fintechnow*.buzz
 .wealthnews*.xyz
-{+block{https://www.datahjelperne.no/dnb-sms-svindel/}}
-.no-personal.com
 {+block{https://www.datahjelperne.no/posten-informerer-deg-om-forsendelsen-din-mail-svindel/}}
 .newzeninfotech.com
 {+block{https://www.datahjelperne.no/skatteberegning-mail-svindel/}}
@@ -1155,8 +1141,6 @@
 .vidcopa.me
 {+block{https://www.adressa.no/pluss/nyheter/2020/08/26/Kristofer-Hivju-V%C3%A6r-s%C3%A5-snill-og-slutt-22527944.ece}}
 .smallrise.com
-{+block{https://www.nrk.no/sorlandet/advarer-mot-nytt-svindelforsok-1.15197328}}
-.lepq.club
 {+block{https://www.datahjelperne.no/coop-du-har-fatt-nye-kuponger-mail-svindel/}}
 .offerleads.club
 ./cop-no/index.htm
@@ -1172,13 +1156,8 @@
 {+block}
 .sites.google.com/view/truls-svendsen
 .signup-*vpns.com
-{+block{https://www.datahjelperne.no/du-er-blitt-rammet-av-taggespam-hva-gjor-du-na/}}
-.velumstand.com
-.thesleepinggod.com
 {+block{https://www.datahjelperne.no/telenor-din-faktura-mislyktes-svindel/}}
 .telenors.*.cx
-{+block{https://www.datahjelperne.no/apple-abbonnements-bekreftelse-svindel/}}
-.ssl-bekreftelse-abonnement.com
 {+block{https://www.datahjelperne.no/eurocard-falsk-epost-faktura/}}
 .valspe.com.br
 {+block{https://www.datahjelperne.no/eika-falsk-epost-svindel/}}
@@ -1187,13 +1166,8 @@
 -sparebank1.*.net
 {+block{https://www.datahjelperne.no/er-det-deg-facebook-video-spam/}}
 .cinefique.com
-./(https?://)?[a-z]{10,12}\.easy\.co($|/.*$)/
 {+block{https://www.datahjelperne.no/posten-sms-svindel/}}
 .niupaiba.com
-{+block{https://www.nrk.no/osloogviken/slik-prover-sms-svindlerne-a-lure-deg-1.15397367}}
-.m-dnbnorge.com
-{+block{https://www.adressa.no/pluss/nyheter/2021/03/20/Politiet-advarer-Dette-er-ikke-et-jobbintervju.-Det-er-et-svindelfors%C3%B8k-23687158.ece (21/03/2021)}}
-.job-view.link
 {+block{https://www.adressa.no/pluss/nyheter/2021/03/30/Ser-du-hvilken-profil-som-er-ekte-23739076.ece}}
 .nordeninterior.weebly.com
 # Googling Aksel Hennie (Results for prior week) in late July 2021
@@ -1203,30 +1177,20 @@
 .fancywoman.dk
 .privatedagplejere.dk
 .mxdesign.dk
-.qteck.io
 .bitcoinevolutionaustraliareview.com
 .irb.dk
 .ditsunde.dk
-.sunrisebar.it
 .economywatch.com
 .superbinvest.com
-.bitcoinprofitrecensioni.com
 .marvelouskaunas.club
 .aktienboard.com
 {+block}
 .minklubshop.dk/dk
-{+block{https://dinside.dagbladet.no/okonomi/ligg-unna-denne-nettbutikken/74392579}}
-.kjokkenbutikk.com
 {+block{https://www.nrk.no/vestfoldogtelemark/1.15750360}}
 .dundeehills.group
 {+block{https://www.adressa.no/pluss/nyheter/2021/12/04/Posten-advarer-Vi-sender-ikke-slike-tekstmeldinger-24894483.ece}}
 .ozarkvillage.net
 .channawars.com
-{+block{https://www.dr.dk/nyheder/penge/kontant/kommissionsbilerdk-saelger-kundernes-biler-og-beholder-deres-penge}}
-.kommissionsbiler.dk
-{+block{https://dinside.dagbladet.no/data/varsellampene-lyser/75613329}}
-{+block{https://itavisen.no/2022/03/16/dette-skjedde-da-de-handlet-fra-spillweb-com/}}
-.spillweb.com
 {+block{https://www.vi.no/forbruker/ikke-trykk-pa-lenka-fra-skatteetaten/75666026}}
 .melding.link
 {+block{https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1114669106}}
@@ -1236,7 +1200,6 @@
 {+block{https://www.kode24.no/artikkel/75980495}}
 .campbell-living.com
 {+block{https://www.telia.no/kundeservice/mobil/malware-flubot-android/}}
-.destinyrealty.in
 .p-stn.net
 .wxqgx123.com
 .kikuchitadahisa.com
@@ -1245,6 +1208,80 @@
 {+block{https://dinside.dagbladet.no/okonomi/tusenvis-forsokt-lurt/76921148}}
 .a2ics.eu
 .smsb.co
+{+block{https://github.com/DandelionSprout/adfilt/issues/747}}
+-norge.co.no
+.*skodanmark.com
+.skechersskosalg-norge.com
+.dkgaborsneakers.com
+.haglofstilbud.com
+.fjallraventilbud.com
+.hitecskonorge.com
+.off-whitenorge.com
+.gaborskonorge.com
+.oofosnorgeoutlet.com
+.camperskonorge.com
+.eccoskonorge.com
+.clarksskonorge.com
+.off-whitedanmark.com
+.underarmourdanmarkdk.com
+.eccodanmarkwebbutik.com
+.clarks-dk.com
+.salomonoutletnorge.com
+.speedcrossnettbutikk.com
+{+block{https://github.com/DandelionSprout/adfilt/issues/748}}
+.salomomnorgeoutlet.com
+.jakkeshopdanmark.com
+.jakkeshopnorge.com
+.norge-adidas.com
+.tevanorgeshop.com
+.wolverineskonorge.com
+.thenorthfacenorge.co.no
+.vansnorge.co.no
+.hunternorge.co
+.hunternorge.co.no
+.hunternorgeno.com
+.martensnorge.co.no
+.norgeskotilbud.com
+.hokasnorgeno.com
+.vanssnorge.com
+.asoloskonorge.com
+.hokaonenorge.com
+.jordannorge.top
+.quiksilvernorge.com
+.hokalopesko.com
+.hokalopesko.top
+.hokanorgeno.com
+.drmdanmark.com
+.tevadanmarkshop.com
+.hunter-danmark.com
+.salomonbutikdanmark.com
+.jordantilbud.com
+.jordantilbuddanmark.com
+.quiksilverdanmark.com
+.salomon-danmark.net
+.salomonidanmark.com
+.saucony-dk.com
+.palladiumskodk.com
+.keensandalertilbud.com
+.quiksilvertilbud.com
+.palladiumskobutikk.com
+.hunterstovlersalg.com
+.martenssalg.com
+.hokaskooutlet.co.no
+.hoka-sko.com
+.hoka-one-one.cc
+.hokaoneone*
+.*norgeskosalg.
+.*norge-salg.com
+.*norgesalg.com
+.*norgesalgs.com
+.*salgnorge.com
+.*danmarkdk.com
+.*skodktilbud.
+.*skonorgeeu.com
+.*sneakersnorgeshop.
+.*sneakersdkshop.com
+.*skodanmarks.
 # IP addresses of servers notorious for hosting many of the sites above
 .51.195.133.131
 .66.206.3.34
@@ -1259,51 +1296,36 @@
 .158.247.212.220
 .165.227.168.212
 .132.148.220.142
+.104.160.10.
+.165.231.154.
 # 🇳🇴: Falske nett-"butikker" som er så dårlige, at de står oppført på Forbrukertilsynet egen svarteliste.
 # 🇩🇰: Forbrukertilsynets black-list over falske netbutikker (Norges svar på Forbrugerombudsmanden).
 {+block{🇬🇧: Fake and fraudulent web-"stores" that are so bad, that they're listed on the blacklist of the Norwegian state-sponsored Consumer Authority.}}
 # Source: https://www.forbrukertilsynet.no/netthandel/falske-nettbutikker.
 .adidasko.com
 .airmaxskobillige.com
-.allergyfl.com
-.apvoc-ga.com
 .assassinfitness.com
-.billigesalg.com
-.bostongrnhsflowers.com
-.caperforaciones.com
 .coralls.com
 .daradis.com
-.denningwelldrilling.com
 .drakternorge.com
 .drcarolyngroff.com
 .dunjakke-no.com
 .fotballsko-salg.com
 .gsport.com
 .hernoclothing.com
-.hollisternorge.com
 .jakkesalgs.com
 .jakkesnorge.com
-.lindseysopticians.com
 .linkshe.com
 .mbtnorge.com
-.meladermfacts.com
 .moteshoes.com
-.museuw.com
 .mycraftypad.com
 .norfotball.com
 .norgefotball.com
-.norgejakke.com
-.norgejakkerbutikk.com
 .norgeshoes.com
 .oflike.com
-.parajumpersitoutlet.com
-.parajumpersnettbutikk.com
-.parajumpersnorway.com
 .parajumperssalg.com
 .pjs.outlet.com
 .popeurope.com
-.skonmdnorge.com
-.xn--sykkeltrye-7cb.com
 .um-bs.com
 {+block{🇬🇧: Pirate-product-selling stores registered by the serial scammers who go by the name of "xiang dao xin xi ji shu you xiang gong si".}}
 .nofotballshop.com
@@ -1318,12 +1340,9 @@
 {+block{🇬🇧: Fake online pharmacies}}
 -med.footeo.com
 .*medisin*.over-blog.com
-.alphaapotek.com
-.bedsteapoteksverige.com
 .godtdsamaritansk.com
 .helsehjelp.over-blog.com
 .jensapoteker.com
-.kjop-palitelige-medisiner.com
 .kobconcerta54mgonlineidanmark.wordpress.com
 .marson.footeo.com
 .nkwana-medstore.com
@@ -1333,7 +1352,6 @@
 {+block{🇬🇧: Old domains stolen by casino sites}}
 .kohlershop.dk
 .fredensborg-orredfiskeri.dk
-.tvaalborg.dk
 .informationer.nu
 .cphspaogwellness.dk
 .webavisen.gl
@@ -1374,7 +1392,7 @@
 # 🇳🇴/🇩🇰: ——— Anti-anti-reklameblokkering ———
 # 🇮🇸: ——— And-and-auglýsingshindrun ———
 {+block{🇬🇧: ——— Anti-anti-adblocking ———}}
-# Last updated: 01August2022v1-Extension
+# Last updated: 13March2023v1-Extension
 .elderlyscissors.com
 {+block}
 .vg.no/cnp-assets/src/sites/vg/components/AdblockModal
